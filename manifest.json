@@ -1,0 +1,11 @@
+{
+  "name": "Gliss",
+  "short_name": "Gliss",
+ 
+  "start_url": "index.html",
+  "display": "standalone",
+  "version_name": "1.0.0-A",
+  "incognito": "split",
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2"
+}
