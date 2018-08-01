@@ -1,0 +1,88 @@
+/* Color palette */
+html{
+ --brand-green: #076448;
+ --dark-green: #099268;
+ --medium-green: #20c997;
+ --text-color: #212529;
+ --gray: #868e96;
+ --light-gray: #f1f3f5;
+ --extra-light-gray: #f8f9fa;
+ --white: #fff; 
+ --color-grey: #333333;
+ --genos:#0189b3;
+ }
+.gliss-amber,.gliss-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.gliss-aqua,.gliss-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.gliss-blue,.gliss-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.gliss-light-blue,.gliss-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.gliss-brown,.gliss-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.gliss-cyan,.gliss-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.gliss-blue-grey,.gliss-hover-blue-grey:hover,.gliss-blue-gray,.gliss-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.gliss-green,.gliss-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.gliss-light-green,.gliss-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.gliss-indigo,.gliss-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.gliss-khaki,.gliss-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.gliss-lime,.gliss-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.gliss-orange,.gliss-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.gliss-deep-orange,.gliss-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.gliss-pink,.gliss-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.gliss-purple,.gliss-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.gliss-deep-purple,.gliss-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.gliss-red,.gliss-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.gliss-sand,.gliss-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.gliss-teal,.gliss-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.gliss-yellow,.gliss-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.gliss-white,.gliss-hover-white:hover{color:#000!important;background-color:#fff!important}
+.gliss-black,.gliss-hover-black:hover{color:#fff!important;background-color:#000!important}
+.gliss-grey,.gliss-hover-grey:hover,.gliss-gray,.gliss-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+.gliss-light-grey,.gliss-hover-light-grey:hover,.gliss-light-gray,.gliss-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.gliss-dark-grey,.gliss-hover-dark-grey:hover,.gliss-dark-gray,.gliss-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.gliss-pastel-green,.gliss-hover-pastel-green:hover{color:#000!important;background-color:#56E14E !important}
+.gliss-mantis,.gliss-hover-mantis:hover{color:#000!important;background-color:#76CC6C!important}
+.gliss-violent-violet,.gliss-hover-violent-violet:hover{color:#fff!important;background-color:#25105F!important}
+.gliss-pastel-viking,.gliss-hover-pastel-viking:hover{color:#000!important;background-color:#64D2D3  !important}
+.gliss-pastel-canary,.gliss-hover-pastel-canary:hover{color:#000!important;background-color:#F2FB6D!important}
+.gliss-pastel-christine,
+.gliss-hover-christine:hover{color:#000!important;background-color:#DF760D  !important}
+.gliss-pastel-manz,.gliss-hover-pastel-manz:hover{color:#000!important;background-color:#E8EF7C  !important}
+.gliss-pastel-manz-light,.gliss-hover-pastel-manz-light:hover{color:#000!important;background-color:#D9EF80 !important}
+.gliss-bond-blue,
+.gliss-hover-bond-blue:hover{color:#000!important;background-color:#0189B3 !important}
+
+.gl-border-amber,.gl-hover-border-amber:hover{border-color:#ffc107!important}
+.gl-border-aqua,.gl-hover-border-aqua:hover{border-color:#00ffff!important}
+.gl-border-blue,.gl-hover-border-blue:hover{border-color:#2196F3!important}
+.gl-border-light-blue,.gl-hover-border-light-blue:hover{border-color:#87CEEB!important}
+.gl-border-brown,.gl-hover-border-brown:hover{border-color:#795548!important}
+.gl-border-cyan,.gl-hover-border-cyan:hover{border-color:#00bcd4!important}
+.gl-border-blue-grey,.gl-hover-border-blue-grey:hover,.gl-border-blue-gray,.gl-hover-border-blue-gray:hover{border-color:#607d8b!important}
+.gl-border-green,.gl-hover-border-green:hover{border-color:#4CAF50!important}
+.gl-border-light-green,.gl-hover-border-light-green:hover{border-color:#8bc34a!important}
+.gl-border-indigo,.gl-hover-border-indigo:hover{border-color:#3f51b5!important}
+.gl-border-khaki,.gl-hover-border-khaki:hover{border-color:#f0e68c!important}
+.gl-border-lime,.gl-hover-border-lime:hover{border-color:#cddc39!important}
+.gl-border-orange,.gl-hover-border-orange:hover{border-color:#ff9800!important}
+.gl-border-deep-orange,.gl-hover-border-deep-orange:hover{border-color:#ff5722!important}
+.gl-border-pink,.gl-hover-border-pink:hover{border-color:#e91e63!important}
+.gl-border-purple,.gl-hover-border-purple:hover{border-color:#9c27b0!important}
+.gl-border-deep-purple,.gl-hover-border-deep-purple:hover{border-color:#673ab7!important}
+.gl-border-red,.gl-hover-border-red:hover{border-color:#f44336!important}
+.gl-border-sand,.gl-hover-border-sand:hover{border-color:#fdf5e6!important}
+.gl-border-teal,.gl-hover-border-teal:hover{border-color:#009688!important}
+.gl-border-yellow,.gl-hover-border-yellow:hover{border-color:#ffeb3b!important}
+.gl-border-white,.gl-hover-border-white:hover{border-color:#fff!important}
+.gl-border-black,.gl-hover-border-black:hover{border-color:#000!important}
+.gl-border-grey,.gl-hover-border-grey:hover,.gl-border-gray,.gl-hover-border-gray:hover{border-color:#9e9e9e!important}
+.gl-border-light-grey,.gl-hover-border-light-grey:hover,.gl-border-light-gray,.gl-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.gl-border-dark-grey,.gl-hover-border-dark-grey:hover,.gl-border-dark-gray,.gl-hover-border-dark-gray:hover{border-color:#616161!important}
+.gl-border-pale-red,.gl-hover-border-pale-red:hover{border-color:#ffe7e7!important}.gl-border-pale-green,.gl-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+.gl-border-pale-yellow,.gl-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.gl-border-pale-blue,.gl-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+.gl-border-bond-blue,
+.gl-border-hover-bond-blue:hover{color:#000!important;border-color:#0189B3 !important}
+
+.primary.focus,
+.btn-primary:focus{color:#fff;background-color:#286090;border-color:#122b40}
+.btn-primary:hover{color:#fff;background-color:#286090;border-color:#204d74}
+
+
+/* Color palette--END--*/

@@ -1,0 +1,27 @@
+.service {
+ text-align: center;
+ [class^="ion-"] {
+ font-size: 2em;
+ padding-bottom: 0.5em;
+ }
+}
+// Dropcaps
+.service > p {
+ @include dropcap;
+}
+
+.subfooter-widget-section {
+ &-text > p {
+ @include dropcap;
+ }
+ &-tagcloud {
+ @include tag-cloud;
+ }
+ &-socials {
+ font-size: 2em;
+ }
+}
+.section-title {
+ @include underline(center, get($theme, color, primary));
+ padding-top: $spacing;
+}

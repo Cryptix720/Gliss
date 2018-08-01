@@ -1,0 +1,14 @@
+.image-banner {
+ ...
+ &-caption {
+ @include container;
+ @include media-container($spacing / 2);
+ color: abs-contrast-color(get($image-banner, overlay-color));
+ @include bp(large) {
+ position: relative;
+ top: get($image-banner, height) / 4;
+ }
+ &-title {
+ @include media-title(abs-contrast-color(get($image-banner,
+overlay-color)));
+ }

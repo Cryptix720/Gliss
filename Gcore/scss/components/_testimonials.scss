@@ -1,0 +1,11 @@
+.testimonial {
+ max-width: 20em;
+ margin: 0 auto;
+ @include media-centered($img: rounded, $color: abs-contrast-color(
+ get($testimonials, overlay-color)));
+ blockquote, cite {
+ color: abs-contrast-color(get($testimonials, overlay-color));
+ }
+ &s {
+ }
+}

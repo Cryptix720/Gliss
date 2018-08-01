@@ -1,0 +1,37 @@
+// Color Styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+$red: hsl(0, 57%, 60%) !default;
+$dark-grey: hsl(0, 3%, 22%) !default;
+$color-green: #00FF00;
+$color-blue: #0000FF;
+
+$theme: (
+ color: (
+ primary: $red,
+ secondary: $dark-grey
+ )
+) !default;
+
+.service [class^="ion-"] {
+ color: get($theme, color, primary);
+}
+
+.footer {
+ background-color: get($theme, color, secondary);
+ color: white;
+ a,
+ a:hover,
+ .subfooter a,
+ .subfooter a:hover {
+ @include hover-link;
+ color: get($theme, color, primary);
+ }
+ .subfooter-widget-section-text > p:first-of-type::first-letter {
+ color: get($theme, color, primary);
+ }
+ .footer-inner:last-child {
+ border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+ }
+}
