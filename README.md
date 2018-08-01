@@ -8,7 +8,7 @@ Check out Gliss for documentation and details(coming soon).
 ## Getting started
 
 There are a couple ways to download Gliss:
-- [Download the zip](https://github.com/Cryptix720/Gliss/releases/download/1.0.0/Gliss-1.0.0-A.zip)
+- [Download the zip](https://github.com/Cryptix720/Gliss/releases/download/Gliss/Gliss.zip)
 - Clone the repo: `git clone https://github.com/Cryptix720/Gliss.git` (Note: this is under active development, so if you're looking for stable and safe, use the zipped download)
 
 
