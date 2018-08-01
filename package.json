@@ -1,0 +1,70 @@
+{
+  "name": "gliss",
+  "version": "1.0.0-A",
+  "license": "MIT",
+  "description": "A silent, tiny and effective CSS framework",
+  "main": "Gcore/css/gliss.css",
+  "style": "gliss.css",
+  "files": [
+    "css",
+    "sass",
+    "README.md"
+  ],
+  "bugs": "https://github.com/cryptix720/gliss/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cryptix720/gliss.git"
+  },
+  "devDependencies": {
+    "node-sass": "^3.13.1",
+    "stylelint": "^7.9.0",
+    "stylelint-config-standard": "^16.0.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "jshint": "^2.9.5"
+  },
+  "scripts": {
+    "sass:compile": "sass --update --compass Gcore/scss/gliss.scss:Gcore/css/gliss.css",
+    "sass:watch": "sass --watch --compass Gcore/scss/gliss.scss:Gcore/css/gliss.css"
+  },
+  "config": {
+    "port": "8989"
+  },
+  "engines": {
+    "node": ">=4",
+    "iojs": ">=1.6.1",
+    "os": [
+      "darwin",
+      "linux",
+      "windows",
+      "ios",
+      "osx",
+      "android"
+    ]
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "flexbox",
+    "art",
+    "morphologic",
+    "responsive",
+    "framework"
+  ],
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "font-family-no-duplicate-names": [
+        true,
+        {
+          "ignoreFontFamilyNames": [
+            "monospace"
+          ]
+        }
+      ]
+    }
+  }
+}
