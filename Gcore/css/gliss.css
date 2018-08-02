@@ -1173,12 +1173,11 @@ label {
   margin-bottom: 0.5rem;
 }
 img {
-
+ max-width: 900px;
   vertical-align: middle;
   border-style: none;
   image-rendering:high-quality;
 }
-
 svg {
   overflow: hidden;
   vertical-align: middle;
