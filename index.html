@@ -10,6 +10,7 @@
   <meta name="author" content="..">
 
 
+
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1" media="print">
@@ -42,32 +43,29 @@
 
   
   
-  
+
   
 </head>
 <body>
 
-<div class="topnav wrapper gliss-bond-blue">
-<ul  class="nav-links">
-  <a class="" href="index.html"><i class="fas fa-home gliss"></i> Home </a>|
-    <a class="" href="index.html"><i class="fas fa-file-invoice"></i> Documentation </a>|
+<div class="topnav" id="myTopnav">
 
-		
-		
-		
-</ul>
-<br> <br> <br> 
+  <a class="" href="index.html"><i class="fas fa-home gliss"></i> Home </a>
+ <a class="" href="Gcore/case/starter.html"><i class="fas fa-file-invoice"></i> Documentation </a>
 
 
-<div class="wrapper glue">    
-</ol><code>Status:<span class="gl-gtag gliss-lime fa fa-signal"></span></code> 
-|
+  <a href="javascript:void(0);" class="icon" onclick="topnav()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+ <center>
+<glisser>
+ </ol><code>Status:<span class="gl-gtag gliss-lime fa fa-signal"></span></code> 
 <code class="far fa-circle fa-pulse"></code>
-<code>Version:<span class="gl-gtag gliss-blue">1.0.0-A</span></code> 
-</div>
-
-
-</div>
+<code>Version:<span class="gl-gtag gliss-blue">1.0.0-B</span></code> 
+</center>
 
 
 
@@ -90,26 +88,27 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
  <div class="wrapper">
   	 <div class="genos">
 
-<form action="Gcore/case/start.html">
+	 
+<form action="Gcore/case/starter.html">
     <input type="submit" value="Start your first journey.." />
 </form>
+
 </div>
 </div>
   
     <div class="wrapper">
-     <div style="margin-top:10%">
-       <h1 class="genos ripple">Tiny <glisser>CSS</glisser> framework </h1>
+
+      <div style="margin-top:10%">
+    <h1 class="genos ripple">Tiny <glisser>CSS</glisser> framework </h1>
 	 <div class="genos">
 	<div class="media">
+
  <div class="media__body">
 
- <p> 
+ <p class=""> 
 	A silent, tiny and effective CSS framework
 	+ HTML5 ready choice to CSS.
  </p>
@@ -120,7 +119,7 @@
     </div>
   </div>
   
-  <span class="gl-ori"></span>
+
   
     <div class="wrapper">
 
@@ -144,7 +143,7 @@ If you've installed a package before, you can install it again without any inter
     <div class="wrapper">
 
       <div style="margin-top:10%">
-       <h1 class="genos ripple">Hyper speed package<i class="fas fa-space-shuttle"></i></h1>
+       <h1 class="genos ripple">Hyper speed package <i class="fas fa-space-shuttle"></i></h1>
 	 <div class="genos">
 	<div class="media">
 
@@ -166,17 +165,18 @@ It downloads so it never needs to downloaded again.
 	 <div class="genos">
 	<div class="media">
  <div class="media__body">
-  <p class="txt-large ripple">Modular <i class="fas fa-boxes"></i> </p>
+  <p class="txt_large ripple">Modular <i class="fas fa-boxes"></i> </p>
    <br>
-	<p class="txt-large ripple">Modern art mode <i class="fas fa-robot"></i></p>
+	<p class="txt_large ripple">Modern art mode <i class="fas fa-robot"></i></p>
 	   <br>
-	<p class="txt-large ripple">Free and Open Source <i class="fab fa-osi"></i></p>
+	<p class="txt_large ripple">Free and Open Source <i class="fab fa-osi"></i></p>
 	   <br>
-	<p class="txt-large ripple">Morphological design <i class="fas fa-pen"></i></p>
+	<p class="txt_large ripple">Morphological design <i class="fas fa-pen"></i></p>
  </div>
 </div>
  </div>
- 
+ </div>
+ </div>
 
 
 
@@ -191,17 +191,15 @@ It downloads so it never needs to downloaded again.
  <div class="media__body">
 
 <ul>
-<input class="gliss-black" type="text" value="$ git clone https://github.com/Cryptix720/Gliss" id="" disabled> 
-<input class="gliss-black" type="text" value="$ npm install gliss" id="myInput" disabled>
-<input class="gliss-black" type="text" value="$ bower install gliss" id="myInput" disabled>
-
+<input class="gliss-black" type="text" value="$ https://github.com/Cryptix720/Gliss" id="myInput" disabled> 
+<input class="gliss-black" type="text" value="$ npm install gliss#01" id="myInput" disabled>
+<input class="gliss-black" type="text" value="$ bower install gliss#01" id="myInput" disabled>
+<input class="gliss-black" type="text" value="$ yarn add gliss#01" id="myInput" disabled>
 
 </ul>
 <br>
 		<blackquote><pre>Supports:</pre>All recent versions of Chrome, Firefox, Edge, Safari, Opera and Internet Explorer 11.</blackquote>
-		</div>
-
-      </div>
+	
     </div>
   </div>
   </div>
@@ -217,19 +215,23 @@ It downloads so it never needs to downloaded again.
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 
-
-
    <footer class="page-footer">
  <div class="page-footer__inner">
-    <p>      
+    <p>      	
  <strong>Gliss</strong> by <a href="">Chris Pro <i class="fas fa-pen"></i></a>. The source code is licensed
       <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+	  <div class="progress-container">
+    <div class="progress-bar pulse" id="gl-bar"></div>
+  </div>
     </p>
  </div>
  </footer>
  
-  
 
+
+<script data-main="app" src="Gcore/js/parts/require.js"></script>
+<script src="Gcore/js/parts/topnav.js"></script>
+<script src="Gcore/js/parts/splish.js"></script>
 	
 	
 <!-- End Document
