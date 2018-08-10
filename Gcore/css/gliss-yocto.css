@@ -267,7 +267,7 @@ p:hover{color:#0122b9}
 
 
 h1,h2,h3,h4,h5,h6{
-font-weight:300;margin-bottom:2rem;margin-top:0;
+font-weight:300;margin-bottom:2rem;margin-top:0 auto;
 position:relative;
 }
 

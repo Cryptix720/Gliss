@@ -22,13 +22,18 @@
 - Animations
 - Banner
 - Badges
+- V-line
+- Scrower
 
 */
 
 @media print {
   /* print style sheets go here */
 }
-
+:link,:visited {
+    cursor: 'helper'; 
+	caret-color: auto;
+}
 
 :root {
 
@@ -44,6 +49,103 @@
          box-sizing: content-box;
 }
 
+	
+
+
+
+html {
+	  font-size: 92.5%;
+   overflow-style: paged-x;
+   height: 100%;
+font-stretch: normal; 
+  font-family:  'Motiva Sans', sans-serif;
+  line-height: 23px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-box-sizing: border-box;
+        box-sizing: border-box;  
+}
+
+/*GlissBody*/
+
+@media only screen and (min-width: 202px) {
+body {font-size: 30px;}}
+
+body{font-size: 90%;background-color: transparent;}
+
+/*Typography*/
+
+
+@media screen and (min-width: 100px) {
+h1, h2, h3, h4, h5, h6, h7 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+ 
+  line-height: 1.2;
+  font-weight: bold;
+  color: inherit;
+  position: relative;
+}
+}
+h1{
+  font-size: 3.3rem;
+   font-weight: lighter;
+}
+h2 {
+  font-size: 2.8rem;
+   font-weight: lighter;
+}
+h3 {
+  font-size: 2.4rem;
+   font-weight: lighter;
+}
+h4{
+  font-size: 2.0rem;
+   font-weight: lighter;
+}
+h5{
+  font-size: 1.8rem;
+   font-weight: lighter;
+}
+h6 {
+  font-size: 1.6rem;
+   font-weight: lighter;
+}
+h7 {
+  font-size: 1.2rem;
+   font-weight: lighter;
+}
+
+.txt_min {font-size: .85em;}.txt_mid {font-size: 1em;}.txt_large {font-size: 1.25em;}
+
+.txt_shadow{text-shadow:  6px 3px 4px #0189b3;}
+
+.dm_baseline{dominant-baseline: auto;!important}
+
+/* Multiple function values */
+.transform_multi{transform: translateX(10px) rotate(10deg) translateY(5px);}
+
+.transform_y{}
+.transform_z{}
+.transform_perspect{}
+.transform_ori{transform-origin: 50% 50%;}
+.v-line{border-left: 2px solid #0189b3;max-height: 500px;overflow:hidden;}
+
+p {margin-top: 0;text-indent: 20px;   text-overflow: ellipsis;  white-space: nowrap; overflow:hidden;  }
+
+
+/*Typography --END--*/
+
+/*The BIG om* */
+@media (min-width: 50px) {
+  om1 { font-size: 6.0rem; }
+  om2 { font-size: 4.2rem; }
+  om3 { font-size: 3.6rem; }
+}
+
+/*The BIG om* --END--*/
 
  /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -121,19 +223,10 @@
  animation: rippleEffect 5s infinite;
 }
 @keyframes rippleEffect {
- 40% {
- opacity: .35;
- }
- 50% {
- transform: translate3d(.5em, 0, 0)scale(1.1);
+ 40% {opacity: .35;}50% {transform: translate3d(.5em, 0, 0)scale(1.1);
  text-shadow: 0 0 20px #fff;
- }
-75% {
- transform: translate3d(0, 0, 0)scale(1);
- text-shadow: 0 0 0 #fff;
- opacity: 1;
-}
-}
+ }75% {transform: translate3d(0, 0, 0)scale(1);text-shadow: 0 0 0 #fff;opacity: 1;}}
+
 @keyframes slideDown {
 0% {transform: translateY(-100%); opacity: 0; }
 90% {transform: translateY(10%);}
@@ -213,6 +306,17 @@
  background-color: #FFD63C;
 }
 
+/*Borders*/
+.border_bottom{border-bottom: 1px solid #0189b3;}
+.border_top{border-top: 1px solid #0189b3;}
+.border_right{border-right: 1px solid #0189b3;}
+.border_left{border-left: 1px solid #0189b3;}
+.border{border: 1px solid #0189b3;}
+.border_double{border: double 1px #0189b3;}
+.border_img_outset{ border-image-outset: 1px #0189b3 ;}
+.border_shadow{box-shadow: #0189b3 10px 10px; }
+/*Borders --END--*/
+
 
 .mySlides {
 	animation-delay: 2s;
@@ -232,26 +336,6 @@ blockquote:first-line { font-variant: small-caps; }
 blockquote:second-line { font-variant: large-caps; }
 
 
-
-html {
-   overflow-style: paged-x;
-   height: 100%;
-  font-family: Futura, GeometricModern, sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-box-sizing: border-box;
-        box-sizing: border-box;  
-}
-
-/*GlissBody*/
-body{
-	
-	background-color: transparent;
-
-}
 
 
 .gl-badge,
@@ -305,61 +389,45 @@ body{
 
 /*NavBar style */
 
-@media screen and (max-width: 500px) {
 .topnav {
   overflow: hidden;
-  background-color: transparent;
-  padding: 20px 10px;
-  color:  #0189B3;
-
- }
+  background-color: #0189b3;
 }
 
-
-.topnav / a {
-  float: right;
+.topnav a {
+  float: left;
   display: block;
-  color: #0189b3;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  box-sizing: border-box;
-  }
+}
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
-  text-decoration: none;
-  }
-.topnav a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-
+  color: black;}
+.active {
+  background-color: #0189b3;
+  color: white;}
 .topnav .icon {
   display: none;
-  text-decoration: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
-
     display: block;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
-    right: 0 auto;
-    top: 0 auto;
-	margin: 0 auto;
-    float: right;
+    right: 0;
+    top: 0;
   }
   .topnav.responsive a {
     float: none;
@@ -367,7 +435,6 @@ body{
     text-align: left;
   }
 }
-
 .nav {
  margin-top: 10px;
  list-style: none;
@@ -388,73 +455,9 @@ body{
 }
 /*NavBar style  --END--*/
 
-/*Typography*/
 
 
-@media (min-width: 500px) {
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.5rem;
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.2;
-  color: inherit;
-  position: relative;
-}
-}
-h1{
-  font-size: 2.5rem;
-  font-weight: normal;
-}
-h2 {
-  font-size: 2rem;
-   font-weight: normal;
-}
-h3 {
-  font-size: 1.75rem;
-   font-weight: normal;
-}
-h4{
-  font-size: 1.5rem;
-   font-weight: normal;
-}
-h5{
-  font-size: 1.25rem;
-   font-weight: normal;
-}
-h6 {
-  font-size: 1rem;
-   font-weight: normal;
-}
 
-.txt-min {
-  font-size: .85em;
-}
-.txt-mid {
-  font-size: 1em;
-}
-.txt-large {
-  font-size: 1.25em;
-}
-
-
- p / p { 
-color: WindowText;  
-background-color: Window } 
-p {margin-top: 0; }
-p:nth-child(2)>glisser{
-	
-}
-
-/*Typography --END--*/
-
-/*The BIG om* */
-@media (min-width: 50px) {
-  om1 { font-size: 6.0rem; }
-  om2 { font-size: 4.2rem; }
-  om3 { font-size: 3.6rem; }
-}
-
-/*The BIG om* --END--*/
 /*Logo*/
 
 .logo-active {
@@ -580,7 +583,8 @@ main{}
 /*Main gliss --END--*/
 
 glisser{
-	
+	baseline-shift: 10px super;
+	inline-sizing: stretch;
  color: white;
  background-color: #13a4a4;
  padding: 5px;
@@ -834,12 +838,50 @@ ul {
   grid: auto-flow / auto 1fr;
 }
 li {
-  grid-column: span 2;
-  display: -ms-grid;
+
   display: grid;
   -ms-grid-columns: subgrid;
       grid-template-columns: subgrid;
-  border: solid;
+ 
+}
+
+blockquote,
+dl,
+figure,
+form,
+ol,
+p,
+pre,
+table,
+ul {
+  margin-bottom: 2.5rem;
+}
+td,
+th {
+  border-bottom: 0.1rem solid #0189b3;
+  padding: 1.2rem 1.5rem .2rem;
+  text-align: left;
+}
+
+td:first-child,
+th:first-child {
+  padding-left: 0;
+}
+
+td:last-child,
+th:last-child {
+  padding-right: 0;
+}
+
+td:only-child,
+th:only-child {
+  padding: 0;
+}
+button,
+dd,
+dt,
+li {
+  margin-bottom: 1.0rem;
 }
 label {
   -ms-grid-column: 1;
@@ -849,7 +891,10 @@ input {
   -ms-grid-column: 2;
   grid-column: 2;
 }
-
+table {
+  border-spacing: 0;
+  width: 100%;
+}
 /*Title */
 title {
  font-style: normal;
@@ -978,8 +1023,55 @@ div {
         box-sizing: border-box;
 }
 
+input[type=image]
+{
+ content: attr(src,url);
+ border: none;
+}
+
+select[size]
+{
+/* HTML4/XHTML1 <select> w/ size more than 1 - appearance of list */
+ display: inline-block;
+ height: attr(size,em);
+}
+
+select,select[size=1]
+{
+/* HTML4/XHTML1 <select> without size, or size=1 - popup-menu */
+ display: inline-block;
+ height: 1em;
+ overflow: hidden;
+}
+
+select[size]:active
+{
+/* active HTML <select> w/ size more than 1 - appearance of active list */
+ display: inline-block;
+}
+
+optgroup,option
+{
+ display: block;
+ white-space: nowrap;
+}
+
+optgroup[label],option[label]
+{
+ content: attr(label);
+}
+
+option[selected]::before
+{
+ display: inline;
+ content: check;
+}
+
+/* Though FRAME tag may provide an approximation of reasonable behavior. */
 
 
+frame { resize:both }
+frame[noresize] { resize:none }
 
 input[type="email"],
 input[type="number"],
@@ -997,6 +1089,10 @@ input[type="month"],
 input[type=image],
 textarea,
 select {
+	/* white space handling of TEXTAREA tags in particular */
+ white-space:pre-wrap;
+ resize: both;
+ 
   height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
@@ -1024,9 +1120,11 @@ input[type="month"],
 input[type=image],
 
 textarea {
+	
   -webkit-appearance: none;
      -moz-appearance: none;
-          appearance: none; }
+          appearance: none;
+ ime-mode: auto !important;}
 textarea {
   min-height: 65px;
   padding-top: 6px;
@@ -1172,19 +1270,40 @@ label {
   display: inline-block;
   margin-bottom: 0.5rem;
 }
+
+/*
+@media screen and (min-width: 200px) and (max-width: 1700px) { }
+
+embed,
+frame,
+object,
+video {
+overflow-y: auto;
+ }
+}
+*/
+
+
 img {
+	
+overflow:hidden;
  max-width: 900px;
   vertical-align: middle;
   border-style: none;
   image-rendering:high-quality;
 }
+kbd {
+    background-color: #f5f5f5;
+    border-style: solid;
+    border-width: 1px 2px 2px 1px;
+    padding: 0 1px;
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle;
 }  
-table {
-  border-collapse: collapse;
-}
+
 /*Animations*/
 
 .animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
@@ -1209,33 +1328,13 @@ table {
 
 @-webkit-keyframes pulse {
   0% {
-    background-color: #001F3F;
+    background-color: #0189b3;
 	 -webkit-transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-	         transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-	
-  }
+	         transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);  }
   100% {
-    background-color: #FF4136;
+    background-color: #0189b3;
 	 -webkit-transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-	         transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-  }
-}
-
-@keyframes pulse {
-  0% {
-    background-color: #001F3F;
-	 -webkit-transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-	      -o-transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-	         transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-	
-  }
-  100% {
-    background-color: #FF4136;
-	 -webkit-transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-	      -o-transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-	         transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-  }
-}
+	         transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);}}
 
 .shake{}
 .shake:hover {
@@ -1278,7 +1377,7 @@ flex: 1 100%;
 }
 
 
-
+/*TRANSPARENT overlap / Wrapper*/
 
 .wrapper{
 box-sizing:border-box;
@@ -1287,10 +1386,27 @@ max-width: 1180px;
 margin-left: auto;
 margin-right: auto;
 padding:0 2rem;
-position:relative;
-	
+position:relative;}
+.wrapper_light
+{
+position: relative;
+display: inline-block; /* You could alternatively float the
+div, this is just to get it to fit the text width */
+z-index: 0;
 }
 
+.overlay
+{
+position: absolute;
+top: 5;
+bottom: 5;
+left: 5;
+right: 5;
+background: rgba(0, 0, 255, 0.5);
+z-index: -1;
+}
+
+/*TRANSPARENT OVERLAP*/
 
 .gl-cell-row:before,.gl-cell-row:after,.gl-clear:after,
 .gl-clear:before,
@@ -1514,7 +1630,8 @@ template {
  */
 
 [hidden] {
-  display: none;
+	/* appearance of the HTML hidden text field in particular */
+  display: none !important;
 }
 
 /*BreadCrumbs */
@@ -1617,20 +1734,68 @@ display: table;
 clear: both;
 }
 
+/*Scrower */
 
+
+::-webkit-scrollbar{ animation: pulse 9s infinite;  width: 7px;!important}
+::-webkit-scrollbar:hover{ width:7px;!important}
+/* button */
+::-webkit-scrollbar-button{padding: 20px;!important}
+/* Handle */
+::-webkit-scrollbar-thumb{  background-color: #0189b3; overflow:hidden; border-radius: 50px;!important}
+
+/* Track */
+::-webkit-scrollbar-track{ box-shadow: inset 0 0 5px grey; border-radius: 10px;!important}
+/* Track-piece*/
+::-webkit-scrollbar-track-piece{}
+/* Corner*/
+::-webkit-scrollbar-corner{background:grey;color:red;}
+/* Size */
+::-webkit-resizer{}
+
+/*Scrower -END-*/
+.progress-container {
+  min-width: 100%;
+  height: 5px;
+  margin: 0 auto;
+  background: #ccc;
+  position: fixed;
+   left: 0;
+    bottom: 0;
+}
+.progress-bar {
+  height: 5px;
+  content:"";
+  background: #0189b3;
+  width: 0%;  
+  margin: 0 auto;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+/*Highlight your own color*/
+::selection {color:black; background:#0189b3; !important}
+::grammar-valid{ color:green;}
+::grammar-error{color: red;}
+::marker {color: green;font-size: 1.2em;!important}
+::-ms-reveal{color:red;}
+::-ms-reveal:hover{}
+/*Scrower */
 .gl-row-padding,
 .gl-row-padding>.gl-half,
 .gl-row-padding>.gl-third,
 .gl-row-padding>.gl-twothird,
 .gl-row-padding>.gl-threequarter,
 .gl-row-padding>.gl-quarter,
-.gl-row-padding>.gl-col{padding:0 8px}
+.gl-row-padding>.gl-col{padding:0 8px!important}
 .wrapper:after,
 .row:after,
 .ug {
   content: "";
   display: table;
   clear: both; }
+/*Row -END-*/
 
 /*ARIA pluggs*/
 [aria-hidden="true"] { visibility: hidden; }
