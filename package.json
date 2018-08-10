@@ -1,13 +1,14 @@
 {
-  "name": "gliss",
-  "version": "1.0.0-A",
+  "name": "gliss#01",
+  "version": "1.0.0-B",
   "license": "MIT",
   "description": "A silent, tiny and effective CSS framework",
   "main": "Gcore/css/gliss.css",
   "style": "gliss.css",
   "files": [
-    "css",
-    "sass",
+    "Gcore/css/",
+    "Gcore/js/",
+    "Gcore/img",
     "README.md"
   ],
   "bugs": "https://github.com/cryptix720/gliss/issues",
