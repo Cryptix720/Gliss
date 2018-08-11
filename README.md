@@ -3,7 +3,7 @@
 # [Gliss]
 Gliss is a silent, tiny and lightweight CSS framework, responsive architecural boilerplate to embark any responsive project.
 
-Check out Gliss for documentation and details(coming soon).
+Check out Gliss for documentation and details.
 
 ## Getting started
 
