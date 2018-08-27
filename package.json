@@ -1,11 +1,12 @@
 {
-  "name": "gliss#01",
-  "version": "1.0.0-B",
+  "name": "gliss01",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "A silent, tiny and effective CSS framework",
   "main": "Gcore/css/gliss.css",
   "style": "gliss.css",
   "files": [
+    "Gcore",
     "Gcore/css/",
     "Gcore/js/",
     "Gcore/img",
@@ -17,18 +18,25 @@
     "url": "https://github.com/cryptix720/gliss.git"
   },
   "devDependencies": {
+    "ajv": "^5.0.1",
+    "grunt": "^1.0.3",
+    "grunt-express-server": "^0.5.4",
+    "gulp": "^4.0.0",
     "node-sass": "^3.13.1",
-    "stylelint": "^7.9.0",
-    "stylelint-config-standard": "^16.0.0"
+    "snyk": "^1.91.0",
+    "stylelint": "^7.9.0"
   },
   "dependencies": {
-    "gulp": "^4.0.0",
+    "fluid-grunt-eslint": "^18.1.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-eslint": "^21.0.0",
     "gulp-cli": "^2.0.1",
     "jshint": "^2.9.5"
   },
   "scripts": {
-    "sass:compile": "sass --update --compass Gcore/scss/gliss.scss:Gcore/css/gliss.css",
-    "sass:watch": "sass --watch --compass Gcore/scss/gliss.scss:Gcore/css/gliss.css"
+    "sass:compile": "sass --update Gcore/scss/gliss.scss:Gcore/css/gliss.css",
+    "sass:watch": "sass --watch  Gcore/scss/gliss.scss:Gcore/css/gliss.css",
+    "protect": "snyk protect"
   },
   "config": {
     "port": "8989"
@@ -51,6 +59,8 @@
     "scss",
     "flexbox",
     "art",
+    "compatibility",
+    "accessibility",
     "morphologic",
     "responsive",
     "framework"
