@@ -1,4 +1,4 @@
-window.onscroll = function() {splish()};
+window.onscroll = function() {splish();};
 
 function splish() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;

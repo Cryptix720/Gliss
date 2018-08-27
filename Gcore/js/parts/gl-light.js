@@ -7,7 +7,7 @@ function gLColor(elmnt, mode) {
   var tagcolor = "#0189b3";
   var tagnamecolor = "#404040";
   var attributecolor = "#702222";
-  var attributevaluecolor = "#0189b3";
+  var attributeValueColor = "#0189b3";
   var commentcolor = "green";
   var cssselectorcolor = "#404040";
   var csspropertycolor = "#702222";
@@ -121,7 +121,7 @@ function gLColor(elmnt, mode) {
     return "<span style=color:" + attributecolor + ">" + done + rest + "</span>";
   }
   function attributeValueMode(txt) {
-    return "<span style=color:" + attributevaluecolor + ">" + txt + "</span>";
+    return "<span style=color:" + attributeValueColor + ">" + txt + "</span>";
   }
   function commentMode(txt) {
     return "<span style=color:" + commentcolor + ">" + txt + "</span>";
@@ -136,7 +136,7 @@ function gLColor(elmnt, mode) {
       cc = 1;
       c = 0;
       for (i = 0; i < midz.length; i++) {
-        if (midz.substr(i, 1) == "{") {cc++; c++}
+        if (midz.substr(i, 1) == "{") {cc++; c++;}
         if (midz.substr(i, 1) == "}") {cc--;}
         if (cc == 0) {break;}
       }
