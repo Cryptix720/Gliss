@@ -1,5 +1,8 @@
-![chronimi](https://github.com/Cryptix720/Gliss/blob/master/favicon.jpg)
-
+<p align="center">
+  <a href="http://ant.design">
+    <img width="230" src="https://github.com/Cryptix720/Gliss/blob/master/favicon.jpg">
+  </a>
+</p>
 
 [![npm version](https://badge.fury.io/js/gliss01.svg)](https://badge.fury.io/js/gliss01)
 [![Build Status](https://travis-ci.org/Cryptix720/Gliss.svg?branch=master)
