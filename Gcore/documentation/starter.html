@@ -1,5 +1,6 @@
 <html>
 <head>
+
   <!---Gliss CSS-color-plugin--->
    <link rel="stylesheet" href="../css/glissColors.css" media="">
     <!-- CSS
@@ -10,25 +11,27 @@
   <!---Gliss Fonts-plugin--->
   
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" media="">
+
    
   <!--Manifest-->
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="../../manifest.json">
   <meta name="theme-color" content="#242424">
 </head>
 
 
 <!--Header-->
 
-<body> 
-<a href="https://github.com/cryptix720/gliss"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+<body translate="yes"> 
 
+<a href="https://github.com/cryptix720/gliss"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png" alt="Fork me on GitHub"></a>
 
 
 <div class="topnav" id="myTopnav">
 
   <a class="" href="../../index.html"><i class="fas fa-home gliss"></i> Home </a>
- <a class="" href="#documentation"><i class="fas fa-file-invoice"></i> Documentation </a>
-
+ <a class="gliss-black" href="../documentation/lab.html"><i class="fas fa-flask fa-pulse"></i> Lab </a>
+  <a class="gliss-grey" href="#"><i class="fas fa-file-invoice"></i> Documentation </a>
+ <a class="" href="../documentation/release.html"><i class="fas fa-allergies"></i> Releases </a>
 
   <a href="javascript:void(0);" class="icon" onclick="topnav()">
     <i class="fa fa-bars"></i>
@@ -46,7 +49,6 @@
 
 
 
-
 <br><br><br>
 <br><br><br><br><br><br>
 <br><br><br>
@@ -58,10 +60,15 @@ then choose the most suitable option for your need.
 Now you should add the main file of the Gliss in the header of your project. Just like that!
 </h4>
 </div>
+
 <br><br><br>
 <br><br><br><br><br><br>
+<center><a onclick="downFunction()" id="gl_down"><i class="fas fa-angle-double-down txt_large genos"></i></a></center>
+<br>
+<center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
 <br><br><br>
-<div class="wrapper genos txt_large"><h1>#Usage</h1>
+
+<div contenteditable class="wrapper genos txt_large"><h1>#Usage</h1>
 <h4 class=" ">Just add these tags in the &lt;head&gt;. </h4>
 
 <br>
@@ -70,15 +77,19 @@ Now you should add the main file of the Gliss in the header of your project. Jus
 
 &lt;link rel="stylesheet" href="../css/glissColors.css"/&gt;<br>
 </div>
+
 <br><br><br>
 <br><br><br><br><br><br>
+<center><a onclick="downFunction()" id="gl_down"><i class="fas fa-angle-double-down txt_large genos"></i></a></center>
+<br>
+<center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
 <br><br><br>
+
 <div class="wrapper genos txt_large">
 <h1>#Typography</h1>
 <h4 class="v-line justify-txt">
 Documentation and examples for typography, including global settings, headings, body text, lists, and more.
 </h4>
-
 
 
 <h1>Sample heading h1 3.3rem</h1>
@@ -97,12 +108,20 @@ Documentation and examples for typography, including global settings, headings, 
 &lt;h5&gt;h5. Sample heading&lt;/h5&gt;<br>
 &lt;h6&gt;h6. Sample heading&lt;/h6&gt;<br>
 &lt;h7&gt;h7. Sample heading&lt;/h7&gt;<br>
+</div>
+
 
 <br><br><br>
 <br><br><br><br><br><br>
+<center><a onclick="downFunction()" id="gl_down"><i class="fas fa-angle-double-down txt_large genos"></i></a></center>
+<br>
+<center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
 <br><br><br>
+
+
+<div class="wrapper genos txt_large">
 <h1>#Codes</h1>
-<h4 class="v-line justify-txt">Different type of components and elements to display a code block.</h4>
+<h4 contenteditable spellcheck="true"  class="v-line justify-txt">Different type of components and elements to display a code block.</h4>
 
 <br><br><br>
 <h6>(User input)</h6><a>
@@ -115,13 +134,19 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
 <br>
 &lt;pre&gt;Sample text here blahh..blahh&lt;/pre&gt;<br>
 &lt;var&gt;y = mx + b&lt;/var&gt;<br>
-&lt;kbd&gt;To edit settings, press&lt;/kbd&gt;<br>
-
+&lt;kbd&gt;To edit settings, press here&lt;/kbd&gt;<br>
+</div>
 
 
 <br><br><br>
 <br><br><br><br><br><br>
+<center><a onclick="downFunction()" id="gl_down"><i class="fas fa-angle-double-down txt_large genos"></i></a></center>
+<br>
+<center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
+
+
 <br><br><br>
+<div class="wrapper genos txt_large">
 <h1>#Lists</h1>
 <h4 class="v-line justify-txt">Add a section to your page for displaying list of sections in your content.</h4>
 <br>
@@ -133,14 +158,14 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
 <br>
 <br>
 <ul>
-  <li>Unordered list item 1</li>
-  <li>Unordered list item 2</li>
+  <li>Unordered list item 1.1</li>
+  <li>Unordered list item 2.1</li>
 </ul>
 
 
 <ol>
   <li>Ordered list item 1</li>
-  <li>Ordered list item 2</li>
+  <li>Ordered list item 2.1</li>
 </ol>
 
 
@@ -148,16 +173,24 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
   <dt>Description list item 1</dt>
   <dd>Description list item 1.1</dd>
 </dl>
-
 <br>
 <br>
 &lt;ul&gt;<br>
 &lt;li&gt;Unordered list item 1&lt;/li&gt;<br>
 &lt;li&gt;Unordered list item 2&lt;/li&gt;<br>
 &lt;/ul&gt;<br>
+</div>
+
 <br><br><br>
 <br><br><br><br><br><br>
+<center><a onclick="downFunction()" id="gl_down"><i class="fas fa-angle-double-down txt_large genos"></i></a></center>
+<br>
+<center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
+
+
 <br><br><br>
+
+<div class="wrapper genos txt_large">
 <h1>#Forms</h1>
 <h4 class="v-line justify-txt">Gliss forms helps to make this much easier with design focused on the user experience.</h4>
 
@@ -205,10 +238,18 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
 &lt;input class="button-primary" type="submit" value="Send"&gt;<br>
 &lt;/fieldset&gt;<br>
 &lt;/form&gt;<br>
+</div>
 
 <br><br><br>
 <br><br><br><br><br><br>
+<center><a onclick="downFunction()" id="gl_down"><i class="fas fa-angle-double-down txt_large genos"></i></a></center>
+<br>
+<center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
+
+
 <br><br><br>
+
+<div class="wrapper genos txt_large">
 <h1>#Tables</h1>
 <h4 class="v-line justify-txt">Add a section to your page for displaying list of sections in your content.</h4>
 
@@ -270,12 +311,19 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
 
 &lt;/tbody&gt;<br>
 &lt;/table&gt;<br>
-
+</div>
 
 
 <br><br><br>
 <br><br><br><br><br><br>
+<center><a onclick="downFunction()" id="gl_down"><i class="fas fa-angle-double-down txt_large genos"></i></a></center>
+<br>
+<center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
+
+
 <br><br><br>
+
+<div class="wrapper genos txt_large">
 <h1>#Nameplates</h1> 
 <h4 class="v-line justify-txt">
 In newspapers or on the desktop, this is also the
@@ -311,7 +359,81 @@ In newspapers or on the desktop, this is also the
 &lt;pre&gt;CEO/President&lt;/pre&gt;<br>
 &lt;/div&gt;<br>
 <br>
+</div>
 
+<br><br><br>
+<br><br><br><br><br><br>
+<center><a onclick="downFunction()" id="gl_down"><i class="fas fa-angle-double-down txt_large genos"></i></a></center>
+<br>
+<center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
+
+<br><br><br>
+<div class="wrapper genos txt_large">
+<h1 id="rec">#Recommendations</h1>
+</div>
+<br><br><br>
+
+<div class="wrapper genos txt_large">
+<h2>#GlissLaunch</h2>
+<h4 class="v-line justify-txt genos">Gliss backend supports:</h4>
+<li>
+ <a class="">Node.js</a>
+  <a class="">Ruby On Rails</a>
+   <a class="">Python</a>
+    <a class="">PHP 7</a>
+ 
+</li>
+</div>
+
+
+
+
+<br><br><br>
+
+<div class="wrapper genos txt_large">
+<h2>#OfflineMode</h2>
+<h4 class="v-line genos justify-txt">Simplify for yourself with offline storage</h4>
+<li>
+ <a class=""> HTML5 gives us an offline storage mechanism so that we can serve pages and web applications without
+any requests to the server. This can be achieved via the manifest attribute in the html tag:<br><a class=""> &lt;meta manifest="gliss.appcache"&gt;</a><br>  </a>
+</li>
+</div>
+
+<br><br><br>
+
+<div class="wrapper genos txt_large">
+<h2>#Optimization</h2>
+<h4 class="v-line genos justify-txt"><p>Don't inline large data URIs</p></h4>
+<li>
+ <a class="v-line"> 
+Be careful when inlining data URIs in CSS files. 
+While selective use of small data URIs in your CSS may make sense,
+ inlining large data URIs can cause the size of your above-the-fold CSS to be larger,
+ which will slow down page render time.
+ </a>
+</li>
+
+
+<br><br><br>
+
+
+
+<h4 class="v-line genos justify-txt">Don't inline CSS attributes</h4>
+<br>
+<li>
+ <a class="v-line"> 
+Inlining CSS attributes on HTML elements (e.g., &lt;p style="..."&gt;) 
+should be avoided where possible, as this often leads to unnecessary code duplication. Further,
+inline CSS on HTML elements is blocked by default with Content Security Policy (CSP).
+ 
+ </a>
+</li>
+</div>
+
+<br><br><br><br><br><br>
+<center><a onclick="downFunction()" id="gl_down"><i class="fas fa-angle-double-down txt_large genos"></i></a></center>
+<br>
+<center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
 
 
 
@@ -321,17 +443,20 @@ In newspapers or on the desktop, this is also the
 </div>
    <footer class="page-footer">
  <div class="page-footer__inner">
-    <p>      	
- <strong>Gliss</strong> by <a href="">Chris Pro <i class="fas fa-pen"></i></a>. The source code is licensed
+    	<p>  
+ <strong>Gliss</strong> by <a href=""> Chris Pro <i class="fas fa-pen"></i></a>. The source code is licensed
       <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+	  
 	  <div class="progress-container">
     <div class="progress-bar pulse" id="gl-bar"></div>
+	
   </div>
-    </p>
+</p>  
  </div>
  </footer>
  
   <script src="../js/parts/topnav.js"></script>
+    <script src="../js/parts/button.js"></script>
 <script src="../js/parts/splish.js"></script>
 <script src="../js/parts/gl-light.js"></script>
 
