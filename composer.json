@@ -1,6 +1,6 @@
 {
 	"name": "gliss#01",
-	"version": "1.0.0-A",
+	"version": "1.0.0",
   "description": "A silent, tiny and effective CSS framework",
 	"repository": "gliss",
 	"license": "MIT",
@@ -46,6 +46,7 @@
 	
 	},
 	"require": {
-
+		"symfony/yaml": "^4.1",
+		"symfony/console": "^4.1"
 	}
 }
