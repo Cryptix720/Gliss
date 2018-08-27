@@ -3,8 +3,6 @@ node_js:
  - "stable"
 before_install:
   - npm i -g npm
-before_script:
-  - npm install -g gulp-cli
-script: gulp
+
 cache:
   yarn: true
