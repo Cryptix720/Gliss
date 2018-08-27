@@ -3,6 +3,8 @@
 
 [![Build Status](https://travis-ci.org/Cryptix720/Gliss.svg?branch=master)
 [![codecov](https://codecov.io/gh/Cryptix720/Gliss/branch/master/graph/badge.svg)](https://codecov.io/gh/Cryptix720/Gliss)
+[![HitCount](http://hits.dwyl.io/{Cryptix720}/{Gliss}.svg)](http://hits.dwyl.io/{Cryptix720}/{Gliss})
+
 
 # [Gliss]
 Gliss is a silent, tiny and lightweight CSS framework, responsive architecural boilerplate to embark any responsive project.
