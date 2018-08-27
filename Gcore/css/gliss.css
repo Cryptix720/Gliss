@@ -30,17 +30,8 @@
 @media print {
   /* print style sheets go here */
 }
-:link,:visited {
-    cursor: 'helper'; 
-	caret-color: auto;
-}
 
 :root {
-
- --primary-font-size: 12px;
- --paragraph-margin: 0 0 8px; 
-
- -webkit-box-sizing: border-box;
          box-sizing: border-box;
 }
 *,
@@ -49,13 +40,9 @@
          box-sizing: content-box;
 }
 
-	
-
-
-
 html {
 	  font-size: 92.5%;
-   overflow-style: paged-x;
+  /* overflow-style: paged-x; *//*1*/
    height: 100%;
 font-stretch: normal; 
   font-family:  'Motiva Sans', sans-serif;
@@ -131,7 +118,7 @@ h7 {
 .transform_z{}
 .transform_perspect{}
 .transform_ori{transform-origin: 50% 50%;}
-.v-line{border-left: 2px solid #0189b3;max-height: 500px;overflow:hidden;}
+.v-line{border-left: 2px solid #0189b3;max-height: 500px;overflow:hidden;text-align: justify;}
 
 p {margin-top: 0;text-indent: 20px;   text-overflow: ellipsis;  white-space: nowrap; overflow:hidden;  }
 
@@ -167,7 +154,9 @@ p {margin-top: 0;text-indent: 20px;   text-overflow: ellipsis;  white-space: now
 @media screen and (min-width: 200px) and (max-width: 1700px) { }
 @media screen and (aspect-ratio:16/9) {/* Your CSS*/}
 @media screen and (min-aspectratio:16/9) {/*Your CSS*/ }
-@media screen and (min-device-width: 480px) and (orientation: landscape) { /*Your CSS*/  }
+@media screen and (min-device-width: 480px) and (orientation: landscape) { /*Your CSS size*/  }
+@media (min-resolution: 2dppx) {/*Your CSS size*/  }
+
 
 /* Media */
 
@@ -395,7 +384,7 @@ blockquote:second-line { font-variant: large-caps; }
 }
 
 .topnav a {
-  float: left;
+  float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -533,8 +522,6 @@ header.page-header h1 {
  left: 0;
  border-top: 1px solid #13a4a4;
     position: fixed;
-
-   
 }
 
 
@@ -678,7 +665,9 @@ text-align:center;text-decoration:none;text-transform:uppercase;white-space:nowr
   suffix: " ";
   
 }
-
+footnote {
+  list-style: footnote;
+}
 /*FootNode  --END--*/
 
 .columns {
@@ -1259,8 +1248,7 @@ fieldset {
   .genos::paused{/*Styles*/}    
 /* Genos END---
    ========================================================================== */   
-
-img[src$=".jpg"]  
+ 
    
 th {
   text-align: inherit;
@@ -1284,9 +1272,11 @@ overflow-y: auto;
 */
 
 
+/*img[src$=".jpg"] *1*/
 img {
-	
-overflow:hidden;
+	min-width: 100px;
+    height: auto;
+	overflow:hidden;
  max-width: 900px;
   vertical-align: middle;
   border-style: none;
@@ -1511,7 +1501,7 @@ box-shadow: #b7b7b7 0px 2px 15px 0px;
  background-color: hsl(220, 45%, 40%);
 }
 	
-}
+
 
 /*Enable inset*/
 :enabled:focus {
@@ -1742,7 +1732,7 @@ clear: both;
 /* button */
 ::-webkit-scrollbar-button{padding: 20px;!important}
 /* Handle */
-::-webkit-scrollbar-thumb{  background-color: #0189b3; overflow:hidden; border-radius: 50px;!important}
+::-webkit-scrollbar-thumb{background-color: #0189b3; overflow:hidden; border-radius: 50px;!important}
 
 /* Track */
 ::-webkit-scrollbar-track{ box-shadow: inset 0 0 5px grey; border-radius: 10px;!important}
@@ -1797,34 +1787,8 @@ clear: both;
   clear: both; }
 /*Row -END-*/
 
-/*ARIA pluggs*/
-[aria-hidden="true"] { visibility: hidden; }
-[aria-details="det"]{color:yellow;}
-[aria-checked=""]{}
-[aria-dropeffect="default"]{}
-[aria-errormessage=""]{color:red;}
-[aria-haspopup=""]{}
-[aria-label=""]{}
-[aria-live="polite"]{}
-[aria-owns=""]{}
-[aria-relevant=""]{}
-[aria-roledescription=""]{}
-[aria-controls=""]{}
-[aria-labelledby=""]{}
-[aria-atomic="true"]{}
-[aria-selected="true"]{color:red;}
-[aria-selected="false"]{color:red;}
 textarea {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none; }
 
-/*TODO set language-appropriate default underline position */
-:root:lang(ja), [lang|=ja],
-:root:lang(rs), [lang|=rs],
-:root:lang(ko), [lang|=ko] { text-underline-position: auto right; }
-:root:lang(zh), [lang|=zh] { text-underline-position: auto left;  }
-/* auto is used above instead of under due to content-compatibility concerns */
-[lang]:not([lang|=zh], [lang|=ja], [lang|=ko], [lang|=rs]) {
-   text-underline-position: auto;
-}
