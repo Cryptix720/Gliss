@@ -1,4 +1,5 @@
 ![chronimi](https://github.com/Cryptix720/Gliss/blob/master/favicon.jpg)
+[![Build Status](https://travis-ci.org/Cryptix720/Gliss.svg?branch=master)
 
 # [Gliss]
 Gliss is a silent, tiny and lightweight CSS framework, responsive architecural boilerplate to embark any responsive project.
