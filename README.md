@@ -1,5 +1,5 @@
 ![chronimi](https://github.com/Cryptix720/Gliss/blob/master/favicon.jpg)
-# # #
+
 [![Build Status](https://travis-ci.org/Cryptix720/Gliss.svg?branch=master)
 
 # [Gliss]
