@@ -1,6 +1,7 @@
 ![chronimi](https://github.com/Cryptix720/Gliss/blob/master/favicon.jpg)
 
 
+[![npm version](https://badge.fury.io/js/gliss01.svg)](https://badge.fury.io/js/gliss01)
 [![Build Status](https://travis-ci.org/Cryptix720/Gliss.svg?branch=master)
 [![codecov](https://codecov.io/gh/Cryptix720/Gliss/branch/master/graph/badge.svg)](https://codecov.io/gh/Cryptix720/Gliss)
 [![HitCount](http://hits.dwyl.io/{Cryptix720}/{Gliss}.svg)](http://hits.dwyl.io/{Cryptix720}/{Gliss})
