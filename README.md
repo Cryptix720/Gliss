@@ -4,7 +4,8 @@
   </a>
 </p>
 
-[![npm version](https://badge.fury.io/js/gliss01.svg)](https://badge.fury.io/js/gliss01)
+[![npm version](https://badge.fury.io/js/gliss01.svg)](https://badge.fury.io/js/gliss01)[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FCryptix720%2FGliss.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FCryptix720%2FGliss?ref=badge_shield)
+
 [![Build Status](https://travis-ci.org/Cryptix720/Gliss.svg?branch=master)
 [![codecov](https://codecov.io/gh/Cryptix720/Gliss/branch/master/graph/badge.svg)](https://codecov.io/gh/Cryptix720/Gliss)
 [![HitCount](http://hits.dwyl.io/{Cryptix720}/{Gliss}.svg)](http://hits.dwyl.io/{Cryptix720}/{Gliss})
@@ -98,3 +99,7 @@ Gliss is not only lightweight and simple. It styles raw HTML elements and provid
 ## Acknowledgement
 
 Gliss was created by [Chris Pro] for a better web.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FCryptix720%2FGliss.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FCryptix720%2FGliss?ref=badge_large)
