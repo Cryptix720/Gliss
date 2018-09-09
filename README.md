@@ -98,3 +98,5 @@ Gliss is not only lightweight and simple. It styles raw HTML elements and provid
 ## Acknowledgement
 
 Gliss was created by [Chris Pro] for a better web.
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FCryptix720%2FGliss.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FCryptix720%2FGliss?ref=badge_large)
