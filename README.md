@@ -10,6 +10,7 @@
 [![HitCount](http://hits.dwyl.io/{Cryptix720}/{Gliss}.svg)](http://hits.dwyl.io/{Cryptix720}/{Gliss})
 [![Build Status](https://semaphoreci.com/api/v1/cryptix720/gliss/branches/master/badge.svg)](https://semaphoreci.com/cryptix720/gliss)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e8ef091b6bc74a84b15e8746a4e5a81f)](https://www.codacy.com/app/Cryptix720/Gliss?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Cryptix720/Gliss&amp;utm_campaign=Badge_Grade)
+[![BCH compliance](https://bettercodehub.com/edge/badge/Cryptix720/Gliss?branch=master)](https://bettercodehub.com/)
 [![CircleCI](https://circleci.com/gh/Cryptix720/Gliss/tree/master.svg?style=svg)](https://circleci.com/gh/Cryptix720/Gliss/tree/master)
 
 
