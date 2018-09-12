@@ -1,0 +1,6 @@
+version: 2
+jobs:
+  test:
+    docker:
+      - image: circleci/node:8.11.1
+    parallelism: 4
