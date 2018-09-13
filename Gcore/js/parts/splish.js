@@ -1,9 +1,9 @@
 "use strict";
 
 window.onscroll = function () {
-  splish();
+ 
 };
-
+ splish();
 function splish() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
