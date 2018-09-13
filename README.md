@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://ant.design">
-    <img width="930" style="border-radius:50%;" src="https://github.com/Cryptix720/Gliss/blob/master/favicon.jpg">
+    <img width="430" style="border-radius:50%;" src="https://github.com/Cryptix720/Gliss/blob/master/favicon.jpg">
   </a>
 </p>
 
