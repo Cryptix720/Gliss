@@ -78,7 +78,7 @@ Gliss is not only lightweight and simple. It styles raw HTML elements and provid
 
 
 
-## Gliss  (alpha)
+## Gliss
 
 - Gliss:full
 - Gliss:min
