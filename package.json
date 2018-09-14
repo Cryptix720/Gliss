@@ -18,13 +18,13 @@
     "url": "https://github.com/cryptix720/gliss.git"
   },
   "devDependencies": {
-    "ajv": "^5.0.1",
+    "ajv": "^6.5.3",
     "grunt": "^1.0.3",
     "grunt-express-server": "^0.5.4",
     "gulp": "^4.0.0",
-    "node-sass": "^3.13.1",
+    "node-sass": "^4.9.3",
     "snyk": "^1.91.0",
-    "stylelint": "^7.9.0"
+    "stylelint": "^9.5.0"
   },
   "dependencies": {
     "fluid-grunt-eslint": "^18.1.2",
