@@ -24,7 +24,7 @@
     "gulp": "^4.0.0",
     "node-sass": "^3.13.1",
     "snyk": "^1.91.0",
-    "stylelint": "^7.9.0"
+    "stylelint": "^9.5.0"
   },
   "dependencies": {
     "fluid-grunt-eslint": "^18.1.2",
