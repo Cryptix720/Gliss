@@ -1,6 +1,11 @@
-var slideIndex = 0;
-carousel();
+"use strict";
+window.onscroll = function() {
+	carousel();
+	}; //Up function
+
 function carousel() {
+	carousel();
+	var slideIndex = 0;
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
