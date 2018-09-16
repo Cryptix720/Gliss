@@ -2,11 +2,11 @@ coverage:
   parsers:
     javascript:
       enable_partials: yes
-      
+
 codecov:
   notify:
     require_ci_to_pass: yes
-    
+	
 fixes:
   - "before/::after/"  # move path   e.g., "before/path" => "after/path"
   - "::after/"         # move root   e.g., "path/" => "after/path/"
