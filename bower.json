@@ -1,0 +1,24 @@
+{
+  "name": "gliss#01",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cryptix720/gliss"
+  },
+  "authors": [
+    "Chris Pro"
+  ],
+  "description": "A silent, tiny and effective CSS framework",
+  "main": "Gcore/css/gliss.css",
+  "style":"gliss.css",
+  "keywords": [
+    "css",
+    "gliss",
+	"oocss",
+	"smacss",
+    "responsive",
+	"architecture",
+    "boilerplate"
+  ],
+  "license": "MIT"
+}
