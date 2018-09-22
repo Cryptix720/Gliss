@@ -16,7 +16,7 @@
 
 
 # [Gliss]
-Gliss is a silent, tiny and lightweight CSS framework, responsive architecural boilerplate to embark any responsive project.
+Gliss is a silent, tiny and lightweight CSS framework, responsive architectural boilerplate to embark any responsive project.
 
 Check out Gliss for documentation and details.
 
@@ -29,7 +29,7 @@ There are a couple ways to download Gliss:
 
 ### What's inside the GlissCore?
 
-The download includes Gliss Core, pick three different levels of Gliss:yocto-min-full in to your project, a sample favicon, and an index.html as a kickstart.
+The download includes Gliss Core, pick three different levels of Gliss:yocto-min-full into your project, a sample favicon, and an index.html as a kickstart.
 
 ```
 Gcore/
@@ -69,7 +69,7 @@ Gliss is not only lightweight and simple. It styles raw HTML elements and provid
 - CSS unminified and with comments.
 - No compiling or installing...
 - 170kb juiced data.
-- Maximize the fun ? enable the GlissCore package.
+- Maximize the fun? enable the GlissCore package.
 - Simplified estimation method for designers.
 - X-phase grid flow.
 - Responsive CSS components. 
