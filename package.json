@@ -34,8 +34,7 @@
     "jshint": "^2.9.5"
   },
   "scripts": {
-    "sass:compile": "sass --update Gcore/scss/gliss.scss:Gcore/css/gliss.css",
-    "sass:watch": "sass --watch  Gcore/scss/gliss.scss:Gcore/css/gliss.css",
+
     "protect": "snyk protect"
   },
   "config": {
