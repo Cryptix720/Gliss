@@ -11,16 +11,19 @@
 
 
 
+
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
- 
+  
+  
+
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="https://fonts.googleapis.com/css?family=Asap:400,300,600" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="Gcore/css/glisslize-min.css">
+  <link rel="stylesheet" href="Gcore/css/gliss-reset.css">
   <link rel="stylesheet" href="Gcore/css/gliss.css">
   
   
@@ -37,36 +40,31 @@
    
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="img/jpg" href="Gcore/img/favicon.jpg">
 
-
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<link rel="icon" type="image/png" sizes="16x16" href="Gcore/img/favicon-16x16.png">
   
 
   
 </head>
-<body translate="yes">
+<body class="gliss-gliss" onload="typeWriter()">
 
-<div class="topnav" id="myTopnav">
+<div class="navbar" id="myTopnav">
 
-  <a class="gliss-grey" href="index.html"><i class="fas fa-home gliss"></i> Home </a>
- <a  class="" href="Gcore/documentation/starter.html"><i class="fas fa-file-invoice"></i> Documentation </a>
- <a class="gliss-black" href="Gcore/documentation/lab.html"><i class="fas fa-flask fa-pulse"></i> Lab </a>
- <a class="" href="Gcore/documentation/release.html"><i class="fas fa-allergies"></i> Releases </a>
-  <a href="javascript:void(0);" class="icon" onclick="topnav()">
-    <i class="fa fa-bars"></i>
-  </a>
+<div id="navbar">
+<div class="navbar_right">
 
+  <a  class="active" href="index.html"><i class="fas fa-home"></i> Home </a>
+    <a class="gliss-hover-black" href="Gcore/doc/basic.html" style="cursor:not-allowed;"><i class="fas fa-play gliss"></i> Templates </a>
+ <a  class="gliss-hover-black" href="Gcore/doc/starter.html"><i class="fas fa-file-invoice"></i> Documentation </a>
+ <a class="gliss-hover-black" href="Gcore/doc/lab.html"><i class="fas fa-flask"></i> Lab </a>
+ <a class="gliss-hover-black" href="Gcore/doc/release.html"><i class="fas fa-allergies"></i> Releases </a>
+  <a class="gliss-hover-red" href="Gcore/doc/about.html"><i class="fas fa-info"></i> About </a>
+  <a href="javascript:void(0);" class="" onclick="topnav()"></a>
+ </div>
+  <a  class="navbar_left gliss-grey">1.0.0 </a>
+  </div>
 </div>
-
-
- <center>
-<glisser>
- </ol><code>Status:<span class="gl-gtag gliss-lime fa fa-signal"></span></code> 
-<code class="far fa-circle fa-pulse"></code>
-<code>Version:<span class="gl-gtag gliss-blue">1.0.0-B</span></code> 
-</center>
-
-
 
 
 
@@ -77,10 +75,13 @@
   
  <div class="wrapper">
   
-  <center><img  src="Gcore/img/glissLogo.jpg" alt="gliss">
+ 
+  <center>
+  
+<img  src="Gcore/img/gliss0003.jpg" alt="gliss">
+
 
   </center>
-
 </div>
 
 
@@ -93,91 +94,49 @@
   	 <div class="genos">
 
 	 
-<form action="Gcore/case/starter.html">
-    <input type="submit" value="Start your first journey.." />
+<form action="Gcore/doc/starter.html">
+    <input class="gliss-black" type="submit" value="Start your first journey.." />
 </form>
 
 </div>
 </div>
-  
-    <div class="wrapper">
 
-      <div style="margin-top:10%">
-    <h1 class="genos ripple">Tiny <glisser>CSS</glisser> framework </h1>
-	 <div class="genos">
-	<div class="media">
 
- <div class="media__body">
+ <div class="wrapper">
+  <div class="genos">
+<ol class="gliss-gliss wix">
+ <li>
+<i class="fab fa-github"></i>
+<br>
+<h6>Free</h6>
+<a>Open source on Github</a>
+</li>
+<li>
+<i class="fas fa-paint-roller"></i>
+<br>
+<h6>Design</h6>
+<a>Application design</a></li>
+<li>
+<i class="fas fa-box"></i>
+<br>
+<h6>Modulize</h6>
+<a>Costumize IOT apps</a>
+</li>
+<li>
 
- <p class=""> 
-	A silent, tiny and effective CSS framework
-	+ HTML5 ready choice to CSS.
- </p>
- </div>
+<i class="fas fa-th"></i>
+<br>
+<h6>Grid</h6>
+<a>Use a grid that is flexible</a></li>
+<li>
+<i class="fas fa-crop"></i>
+<br>
+<h6>Flexibility</h6>
+<a>Responsive CSS components</a>
+</li>
+</ol>
 </div>
- </div>
-
-    </div>
-  </div>
-  
-
-  
-    <div class="wrapper">
-
-      <div style="margin-top:10%">
-       <h1 class="genos ripple">Offline mode <i class="fas fa-power-off"></i></h1>
-	 <div class="genos">
-	<div class="media">
-
- <div class="media__body">
-
- <p>
-If you've installed a package before, you can install it again without any internet connection.
- </p>
- </div>
 </div>
- </div>
-
-    </div>
-  </div>
-
-    <div class="wrapper">
-
-      <div style="margin-top:10%">
-       <h1 class="genos ripple">Hyper speed package <i class="fas fa-space-shuttle"></i></h1>
-	 <div class="genos">
-	<div class="media">
-
- <div class="media__body">
-
- <p>
-It downloads so it never needs to downloaded again.
- </p>
- </div>
-</div>
- </div>
-
-    </div>
-  </div>
-
-    <div class="wrapper">
-  <div style="margin-top:10%">
-    <h1 class="genos ripple">4 in One <glisser> 4iO </glisser></h1>
-	 <div class="genos">
-	<div class="media">
- <div class="media__body">
-  <p class="txt_large ripple">Modular <i class="fas fa-boxes"></i> </p>
-   <br>
-	<p class="txt_large ripple">Modern art mode <i class="fas fa-robot"></i></p>
-	   <br>
-	<p class="txt_large ripple">Free and Open Source <i class="fab fa-osi"></i></p>
-	   <br>
-	<p class="txt_large ripple">Morphological design <i class="fas fa-pen"></i></p>
- </div>
-</div>
- </div>
- </div>
- </div>
 
 
 
@@ -185,16 +144,15 @@ It downloads so it never needs to downloaded again.
 
       <div  style="margin-top: 10%">
 	  
-        <h1 class="genos ripple">Download <glisser>Gliss</glisser> </h1>
-		<br>
+        <h1 class="genos ripple gliss-gliss">Download <glisser>Gliss</glisser> </h1>
+<br>
         <div class="genos">
-			<div class="media">
+			<div class="media gliss-gliss">
  <div class="media__body">
 
 <ul>
-<input class="gliss-black" type="text" value="$ https://github.com/Cryptix720/Gliss" id="myInput" disabled> 
+<input class="gliss-black" type="text" value="$ git clone https://github.com/Cryptix720/Gliss" id="myInput" disabled> 
 <input class="gliss-black" type="text" value="$ npm install gliss01" id="myInput" disabled>
-
 
 </ul>
 <br>
@@ -206,40 +164,50 @@ It downloads so it never needs to downloaded again.
   
     </div>
   </div>
-  
 
     <!-- Foot Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
+<center>
 
+
+
+</center>
    <footer class="page-footer">
- <div class="page-footer__inner">
-    <p>      	
- <strong>Gliss</strong> by <a href="">Chris Pro <i class="fas fa-pen"></i></a>. The source code is licensed
-      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
-	  <div class="progress-container">
-    <div class="progress-bar pulse" id="gl-bar"></div>
-	
-  </div>
+ <div class="page-footer__inner gliss-white">
+    <p>   
+
+<a class="console"  id="auto"> </a>
+<div class="" id="connection">Connecting...<div>
+ <pre class="console" id="log"></pre>
     </p>
+		  <div class="progress-container">
+    <div class="progress-bar pulse" id="gl-bar"></div>   	
+ </div>
  </div>
  </footer>
- 
+     <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-<!--Start Cookie Script--> 
-<script type="text/javascript" charset="UTF-8" src="http://chs03.cookie-script.com/s/79ec4f040bb5925fb77237b61f1cbd78.js"></script> 
-  <!--End Cookie Script-->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a60d3dca21def31"></script>
-  <script src="Gcore/js/parts/topnav.js"></script>
+      ga('create', 'UA-38732775-4', 'auto');
+      ga('send', 'pageview');
+    </script>
+  
+
+
+<script src="Gcore/js/parts/topnav.js"></script>
 <script src="Gcore/js/parts/splish.js"></script>
-<script src="Gcore/js/parts/glissfix.js"></script>	
-	
+<script src="Gcore/src/glissCore.js"></script>
+<script src="Gcore/js/glissfix.js"></script>
+<script src="Gcore/js/sw.js"></script>
+<script src="Gcore/js/parts/connection.js"></script>
+<script src="Gcore/js/parts/autowr.js"></script>
+<script src="Gcore/js/parts/navbar.js"></script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  
 
-  
-
- 
 </body>
 </html>
