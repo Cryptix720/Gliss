@@ -1,4 +1,6 @@
-window.onscroll = function() {scrollFunctionUp()}; //Up function
+window.onscroll = function() {
+	scrollFunctionUp();
+	}; //Up function
 
 function scrollFunctionUp() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {

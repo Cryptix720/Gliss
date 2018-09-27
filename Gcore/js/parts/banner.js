@@ -1,4 +1,6 @@
 "use strict";
+
+
 window.onscroll = function() {
 	carousel();
 	}; //Up function
