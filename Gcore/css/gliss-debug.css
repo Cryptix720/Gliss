@@ -1,0 +1,19 @@
+/**
+ * 
+ *
+ * Debug CSS files 
+
+/**
+ * Imports
+ *
+ * Sets character set and imports all files for the project.
+ * This file is used by build scripts. It must be an accurate list of all CSS resources used in the project.
+ *
+ * @section imports
+ */
+
+
+
+@import url(gliss-reset.css);
+@import url(glissColors.css);
+@import url(gliss.css);

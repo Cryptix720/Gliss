@@ -1,13 +1,21 @@
 /* Color palette */
 
-.gliss-gliss,.gliss-hover-gliss:hover{color:#000 !important;background-color:#0b86b2 !important;}
+
+.gliss-darkpinkz,.gliss-hover-darkpinkz:hover{color:#fff !important;background-color:#880E4F !important;}
+.gliss-darkgray,.gliss-hover-darkgray:hover{color:#fff !important;background-color:#212121 !important;}
+.gliss-purplee,.gliss-hover-purplee:hover{color:#fff !important;background-color:#9575CD !important;}
+.gliss-gold,.gliss-hover-gold:hover{color:#000 !important;background-color:#ffbf00 !important;}
+.gliss-yelovium,.gliss-hover-yelovium:hover{color:#000 !important;background-color:#FFD54F !important;}
+.gliss-greenium,.gliss-hover-greenium:hover{color:#000 !important;background-color:#81C784 !important;}
+.gliss-vablua,.gliss-hover-vablua:hover{color:#000 !important;background-color:#7986CB !important;}
+.gliss-gliss,.gliss-hover-gliss:hover{color:#fff !important;background-color:#0b86b2 !important;}
 .gliss-amber,.gliss-hover-amber:hover{color:#000 !important;background-color:#ffc107 !important;}
 .gliss-aqua,.gliss-hover-aqua:hover{color:#000 !important;background-color:#00ffff !important;}
 .gliss-blue,.gliss-hover-blue:hover{color:#fff !important;background-color:#2196F3 !important;}
 .gliss-light-blue,.gliss-hover-light-blue:hover{color:#000 !important;background-color:#87CEEB !important;}
 .gliss-brown,.gliss-hover-brown:hover{color:#fff !important;background-color:#795548 !important;}
 .gliss-cyan,.gliss-hover-cyan:hover{color:#000 !important;background-color:#00bcd4 !important;}
-.gliss-blue-grey,.gliss-hover-blue-grey:hover,.gliss-blue-gray,.gliss-hover-blue-gray:hover{color:#fff !important;background-color:#607d8b!important;}
+.gliss-blue-grey,.gliss-hover-blue-grey:hover,.gliss-blue-gray,.gliss-hover-blue-gray:hover{color:#fff !important;background-color:#607d8b !important;}
 .gliss-green,.gliss-hover-green:hover{color:#fff !important;background-color:#4CAF50 !important}
 .gliss-light-green,.gliss-hover-light-green:hover{color:#000!important;background-color:#8bc34a !important;}
 .gliss-indigo,.gliss-hover-indigo:hover{color:#fff !important;background-color:#3f51b5 !important;}
@@ -39,6 +47,9 @@
 .gliss-bond-blue,
 .gliss-hover-bond-blue:hover{color:#000 !important;background-color:#0189B3 !important;}
 
+
+.gl-border-gold,.gl-hover-border-gold:hover{border-color:#ffbf00 !important;}
+.gl-border-yelovium,.gl-hover-border-yelovium:hover{border-color:#FFD54F !important;}
 .gl-border-gliss,.gl-hover-border-gliss:hover{border-color:#0b86b2 !important;}
 .gl-border-amber,.gl-hover-border-amber:hover{border-color:#ffc107 !important;}
 .gl-border-aqua,.gl-hover-border-aqua:hover{border-color:#00ffff !important;}
