@@ -1,0 +1,129 @@
+<html>
+<head>
+
+  <!---Gliss CSS-color-plugin--->
+   <link rel="stylesheet" href="../css/glissColors.css" media="">
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/gliss-reset.css" media="">
+  
+     <link rel="stylesheet" href="../css/gliss.css" media="">
+  <!---Gliss Fonts-plugin--->
+  
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" media="">
+
+   
+  <!--Manifest-->
+  <link rel="manifest" href="../../manifest.json">
+  <meta name="theme-color" content="#242424">
+</head>
+
+
+<!--Header-->
+</head>
+
+
+<body>
+<div class="topnav" id="myTopnav">
+
+  <a class="" href="../../index.html"><i class="fas fa-home gliss"></i> Home </a>
+    <a class="" href="../doc/basic.html"><i class="fas fa-play gliss"></i> Templates </a>
+ <a class="" href="../doc/release.html"><i class="fas fa-allergies"></i> Releases </a>
+  <a  class="gliss-grey" href="#" ><i class="fas fa-flask"></i> Lab </a>
+  
+  
+  <a href="javascript:void(0);" class="icon" onclick="topnav()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+ <center>
+<glisser>
+<code><span>Status:<img src="https://travis-ci.org/Cryptix720/Gliss.svg?branch=master"></span></code> 
+<code class="far fa-circle fa-pulse"></code>
+<code><span>Version:<img style="max-width:12px;height:23px;" src="https://img.shields.io/badge/Gliss-1.0.0-blue.svg?longCache=true&style=popout"></span></code> 
+</center></glisser>
+
+<style>
+
+.smartphone {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+  border: 16px #0189b3 solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 255, .2);
+}
+
+
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(129, 212, 250);
+  border-radius: 10px;
+}
+
+
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: rgb(129, 212, 250);
+  border-radius: 50%;
+
+}
+</style>
+
+<br>
+<nav class="breadcrumb">
+<h2>
+Gliss starter template
+Use this document as a way to quickly start any new project.
+All you get is this text and a mostly barebones HTML document.
+</h2>
+</nav>
+<br><br><br><br><br>
+<div class="smartphone shake gliss-grey">
+<center>
+<article >
+<h2 class="gliss-black ">Hello World!</h2>
+
+</article>
+</div>
+ <!-- Foot Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <footer class="page-footer">
+ <div class="page-footer__inner">
+    <p>      	
+ <strong>Gliss</strong> by <a href=""> Chris Pro <i class="fas fa-pen"></i></a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+	  <div class="progress-container">
+    <div class="progress-bar pulse" id="gl-bar"></div>
+  </div>
+    </p>
+ </div>
+ </footer>
+ 
+  <script src="../js/parts/topnav.js"></script>
+<script src="../js/parts/splish.js"></script>
+<script src="../js/parts/gl-light.js"></script>
+<script src="../js/glissfix.js"></script>
+<script src="../js/glisspretty.js"></script>
+
+</body>
+</html>
