@@ -6,7 +6,6 @@
 
 [![npm version](https://badge.fury.io/js/gliss01.svg)](https://badge.fury.io/js/gliss01)
 [![Build Status](https://travis-ci.org/Cryptix720/Gliss.svg?branch=master)
-[![codecov](https://codecov.io/gh/Cryptix720/Gliss/branch/master/graph/badge.svg)](https://codecov.io/gh/Cryptix720/Gliss)
 [![HitCount](http://hits.dwyl.io/{Cryptix720}/{Gliss}.svg)](http://hits.dwyl.io/{Cryptix720}/{Gliss})
 [![Build Status](https://semaphoreci.com/api/v1/cryptix720/gliss/branches/master/badge.svg)](https://semaphoreci.com/cryptix720/gliss)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e8ef091b6bc74a84b15e8746a4e5a81f)](https://www.codacy.com/app/Cryptix720/Gliss?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Cryptix720/Gliss&amp;utm_campaign=Badge_Grade)
@@ -15,7 +14,7 @@
 
 
 
-# [Gliss]
+# Gliss
 Gliss is a silent, tiny and lightweight CSS framework, responsive architectural boilerplate to embark any responsive project.
 
 Check out Gliss for documentation and details.
@@ -31,7 +30,7 @@ There are a couple ways to download Gliss:
 
 The download includes Gliss Core, pick three different levels of Gliss:yocto-min-full into your project, a sample favicon, and an index.html as a kickstart.
 
-```
+```js
 Gcore/
 ├ index.html-
 │ 
@@ -79,11 +78,14 @@ Gliss is not only lightweight and simple. It styles raw HTML elements and provid
 
 
 
-## Gliss
+## Package level
 
+```py
 - Gliss:full
 - Gliss:min
 - Glis:yocto
+
+```py
 
 ## Browser support
 
