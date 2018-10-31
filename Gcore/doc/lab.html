@@ -16,6 +16,9 @@
   <!--Manifest-->
   <link rel="manifest" href="../../manifest.json">
   <meta name="theme-color" content="#242424">
+  
+  <!---Node lib-->
+  <script src="node_modules/"></script>
 </head>
 
 
@@ -24,20 +27,26 @@
 
 
 <body>
-<div class="topnav" id="myTopnav">
+<div class="navbar" id="myTopnav">
 
-  <a class="" href="../../index.html"><i class="fas fa-home gliss"></i> Home </a>
-    <a class="" href="../doc/basic.html"><i class="fas fa-play gliss"></i> Templates </a>
- <a class="" href="../doc/release.html"><i class="fas fa-allergies"></i> Releases </a>
-  <a  class="gliss-grey" href="#" ><i class="fas fa-flask"></i> Lab </a>
-  
-  
-  <a href="javascript:void(0);" class="icon" onclick="topnav()">
-    <i class="fa fa-bars"></i>
-  </a>
+<div id="navbar">
+<div class="navbar_right">
+
+  <a class="gliss-hover-black"  href="../../index.html"><i class="fas fa-home"></i> Home </a>
+    <a class="gliss-hover-black" href="basic.html" style="cursor:not-allowed;"><i class="fas fa-play gliss"></i> Templates </a>
+ <a  class="gliss-hover-black" href="starter.html"><i class="fas fa-file-invoice"></i> Documentation </a>
+ <a class="active" href="lab.html"><i class="fas fa-flask"></i> Lab </a>
+ <a class="gliss-hover-black" href="release.html"><i class="fas fa-allergies"></i> Releases </a>
+  <a class="gliss-hover-red" href="about.html"><i class="fas fa-info"></i> About </a>
+ 
+ </div>
+        <img src="https://travis-ci.org/Cryptix720/Gliss.svg?branch=master" class="gl-ghost gliss-blue genos">
+
+  <img src="https://img.shields.io/badge/version-1.0.0-orange.svg" class="gl-ghost gliss-blue genos">
+  </div>
 </div>
 
-
+<br><br><br><br><br><br>
 
 
 
@@ -94,13 +103,16 @@ All you get is this text and a mostly barebones HTML document.
 </h2>
 </nav>
 <br><br><br><br><br>
-<div class="smartphone shake gliss-grey">
+<div class="smartphone shake gliss-white">
 <center>
-<article >
-<h2 class="gliss-black ">Hello World!</h2>
+<article>
+<br>
+<h2 class="">Hello World!</h2>
+
 
 </article>
 </div>
+
  <!-- Foot Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
    <footer class="page-footer">
@@ -115,11 +127,17 @@ All you get is this text and a mostly barebones HTML document.
  </div>
  </footer>
  
-  <script src="../js/parts/topnav.js"></script>
+<script src="../js/parts/topnav.js"></script>
 <script src="../js/parts/splish.js"></script>
 <script src="../js/parts/gl-light.js"></script>
 <script src="../js/glissfix.js"></script>
 <script src="../js/glisspretty.js"></script>
+<script src="../js/parts/connection.js"></script>
+
+
+
+<script src="../js/parts/autowr.js"></script>
+<script src="../js/parts/navbar.js"></script>
 
 </body>
 </html>
