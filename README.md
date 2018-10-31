@@ -25,7 +25,19 @@ There are a couple ways to download Gliss:
 - [Download the zip](https://github.com/Cryptix720/Gliss/releases/download/Gliss/Gliss.zip)
 - Clone the repo: `git clone https://github.com/Cryptix720/Gliss.git` (Note: this is under active development, so if you're looking for stable and safe, use the zipped download)
 
+## LoadAndScript
+```js
 
+  <link rel="stylesheet" href="Gcore/css/gliss-reset.css">
+  <link rel="stylesheet" href="Gcore/css/gliss.css">
+  
+  
+  <!---Gliss CSS-color-plugin--->
+   <link rel="stylesheet" href="Gcore/css/glissColors.css">
+  
+
+   
+```
 ### What's inside the GlissCore?
 
 The download includes Gliss Core, pick three different levels of Gliss:yocto-min-full into your project, a sample favicon, and an index.html as a kickstart.
@@ -80,12 +92,12 @@ Gliss is not only lightweight and simple. It styles raw HTML elements and provid
 
 ## Package level
 
-```py
+```css
 - Gliss:full
 - Gliss:min
 - Glis:yocto
 
-```py
+```
 
 ## Browser support
 
