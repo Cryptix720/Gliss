@@ -487,7 +487,18 @@ blockquote:second-line {
 	padding-right: 8px;
 	text-align: center;
 }
-
+.gl-ghost{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.9s;
+}
+.gl-ghost:hover {opacity: 1}
 .gl-badge {
 	border-radius: 10%;
 }
@@ -1202,10 +1213,13 @@ strong {
 	text-transform: uppercase;
 }
 
-ul {
- list-style: none;
-}
-
+ul {list-style: none;}
+ol { counter-reset: item; }
+  li { display: block; }
+  
+  /* Remove this comment to show number(s) on li attribute.
+  li::before { content: counter(item) ". "; counter-increment: item; }
+  */
 
 
 blockquote, dl, figure, form, ol, p, pre, table, ul {
@@ -2454,7 +2468,7 @@ nav.breadcrumb [aria-current="page"] {
 	width: 7px !important;
 }
 
-::-webkit-scrollbar:hover {
+::-webkit-scrollbar: {
 	width: 7px !important;
 }
 
