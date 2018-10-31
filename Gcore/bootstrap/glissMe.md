@@ -1,0 +1,9 @@
+ --- Status  => den 14 sep 2018 18:05:36
+ --- Status  => den 14 sep 2018 18:07:31
+ --- Status  => den 14 sep 2018 18:07:41
+ --- Status  => den 14 sep 2018 18:09:14
+ --- Status  => den 14 sep 2018 18:10:14
+ --- Status  => den 14 sep 2018 18:10:29
+ --- Status  => den 14 sep 2018 18:10:33
+ --- Status  => den 14 sep 2018 18:10:49
+ --- Status  => den 14 sep 2018 18:16:51
