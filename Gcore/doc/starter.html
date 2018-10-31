@@ -16,6 +16,9 @@
   <!--Manifest-->
   <link rel="manifest" href="../../manifest.json">
   <meta name="theme-color" content="#242424">
+  
+      <!---Node lib-->
+  <script src="../../node_modules/"></script>
 </head>
 
 
@@ -23,32 +26,46 @@
 
 <body class="gliss-gliss"> 
 
-<a href="https://github.com/cryptix720/gliss"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png" alt="Fork me on GitHub"></a>
 
 
-<div class="topnav" id="myTopnav">
+<div class="navbar" id="myTopnav">
 
-  <a class="" href="../../index.html"><i class="fas fa-home gliss"></i> Home </a>
- <a class="gliss-black" href="../case/lab.html"><i class="fas fa-flask fa-pulse"></i> Lab </a>
-  <a class="gliss-grey" href="#"><i class="fas fa-file-invoice"></i> Documentation </a>
- <a class="" href="../case/release.html"><i class="fas fa-allergies"></i> Releases </a>
+<div id="navbar">
+<div class="navbar_right">
 
-  <a href="javascript:void(0);" class="icon" onclick="topnav()">
-    <i class="fa fa-bars"></i>
-  </a>
+ <a class="gliss-hover-black"  href="../../index.html"><i class="fas fa-home"></i> Home </a>
+ <a class="gliss-hover-black" href="basic.html" style="cursor:not-allowed;"><i class="fas fa-play gliss"></i> Templates </a>
+ <a class="active"  href="starter.html"><i class="fas fa-file-invoice"></i> Documentation </a>
+ <a class="gliss-hover-black" href="lab.html"><i class="fas fa-flask"></i> Lab </a>
+ <a class="gliss-hover-black" href="release.html"><i class="fas fa-allergies"></i> Releases </a>
+ <a class="gliss-hover-red" href="about.html"><i class="fas fa-info"></i> About </a>
+
+ </div>
+       <img src="https://travis-ci.org/Cryptix720/Gliss.svg?branch=master" class="gl-ghost gliss-blue genos">
+
+  <img src="https://img.shields.io/badge/version-1.0.0-orange.svg" class="gl-ghost gliss-blue genos">
+  
+
+  </div>
+
 </div>
+
+
+	
 <div id="gl-light">
 
 <br><br><br>
 <br><br><br><br><br><br>
 <br><br><br>
-<div class="wrapper  txt_large">
+
+
+<div class="wrapper  txt_large gliss-white genos gl-card-2">
 <h1 class="">#Introduction</h1>
 <hr>
-<h4 class="v-line justify-txt">
+<h4 class="justify-txt">
 There are multiple ways to get started. First, see all download options available below, 
 then choose the most suitable option for your need. 
-Now you should add the main file of the Gliss in the header of your project. Just like that!
+Now you should add the main file of the &lt;Gliss&gt; in the header of your project. Just like that!
 </h4>
 </div>
 
@@ -59,15 +76,23 @@ Now you should add the main file of the Gliss in the header of your project. Jus
 <center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
 <br><br><br>
 
-<div contenteditable class="wrapper  txt_large"><h1>#Usage</h1>
+<div contenteditable class="wrapper  txt_large gliss-white genos gl-ghost gl-card-4"><h1>#Usage</h1>
 <hr>
-<div class="gliss-black">
-<h4>Just add these tags in the &lt;head&gt;. </h4>
+<div>
+<h4 class="">Just add these tags in the inside the head element. </h4>
 
 <br>
-&lt;link rel="stylesheet" href="../css/glisslize-min.css"/&gt;<br>
-&lt;link rel="stylesheet" href="../css/gliss.css"/&gt;<br>
-&lt;link rel="stylesheet" href="../css/glissColors.css"/&gt;<br>
+&lt;head&gt;<br>
+
+
+&lt;link rel="stylesheet" href="gcore/css/glisslize-min.css"/&gt;<br>
+&lt;link rel="stylesheet" href="gcore/css/gliss.css"/&gt;<br>
+&lt;link rel="stylesheet" href="gcore/css/glissColors.css"/&gt;<br>
+
+
+&lt;/head&gt;
+<br>
+<br>
 </div>
 </div>
 
@@ -78,14 +103,15 @@ Now you should add the main file of the Gliss in the header of your project. Jus
 <center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
 <br><br><br>
 
-<div class="wrapper  txt_large gliss-black genos">
+<div class="wrapper  txt_large gliss-white genos gl-ghost gl-card gl-card-2">
 <h1>#Typography</h1>
 <hr>
 
-<h4 class="v-line justify-txt">
+<h4 class="">
+
 Documentation and examples for typography, including global settings, headings, body text, lists, and more.
 </h4>
-
+<hr>
 
 <h1>Sample heading h1 3.3rem</h1>
 <h2>Sample heading h2 2.8rem </h2>
@@ -96,6 +122,7 @@ Documentation and examples for typography, including global settings, headings, 
 <h7>Sample heading h7 1.2rem </h7>
 <br>
 <br>
+<hr>
 &lt;h1&gt;h1. Sample heading&lt;/h1&gt;<br>
 &lt;h2&gt;h2. Sample heading&lt;/h2&gt;<br>
 &lt;h3&gt;h3. Sample heading&lt;/h3&gt;<br>
@@ -117,22 +144,26 @@ Documentation and examples for typography, including global settings, headings, 
 <br><br><br>
 
 
-<div class="wrapper genos txt_large">
+<div class="wrapper  txt_large gliss-white genos gl-ghost gl-card-2">
 <h1>#Codes</h1>
-<h4 contenteditable spellcheck="true"  class="v-line justify-txt">Different type of components and elements to display a code block.</h4>
-
+<h4 contenteditable spellcheck="true"  class="">Different type of components and elements to display a code block.</h4>
+<hr>
 <br><br><br>
-<h6>(User input)</h6><a>
-Use the &lt;kbd&gt; to indicate input that is typically entered via keyboard.</a>
+<h6>[User input]</h6>
+<br>
+Use the &lt;kbd&gt; to indicate input that is typically entered via keyboard.
 
-To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
-To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+To switch directories, type <kbd class="gliss-red">cd</kbd> followed by the name of the directory.<br>
+To edit settings, press <kbd class="gliss-red">ctrl</kbd> + <kbd class="gliss-red">,</kbd></kbd>
 
 <br>
 <br>
+<hr>
 &lt;pre&gt;Sample text here blahh..blahh&lt;/pre&gt;<br>
 &lt;var&gt;y = mx + b&lt;/var&gt;<br>
 &lt;kbd&gt;To edit settings, press here&lt;/kbd&gt;<br>
+<br>
+<br>
 </div>
 
 
@@ -144,39 +175,51 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
 
 
 <br><br><br>
-<div class="wrapper genos txt_large">
+<div class="wrapper  txt_large gliss-white genos gl-ghost gl-card-2">
 <h1>#Lists</h1>
-<h4 class="v-line justify-txt">Add a section to your page for displaying list of sections in your content.</h4>
+<h4 class="">Add a section to your page for displaying list of sections in your content.</h4>
+<hr>
 <br>
 <br>
 <ul>
-<li class="">Unordered list item 1</li>
+<li >Unordered list item 1</li>
 <li>Unordered list item 2</li>
 </ul>
 <br>
 <br>
-<ul>
-  <li>Unordered list item 1.1</li>
-  <li>Unordered list item 2.1</li>
-</ul>
-
 
 <ol>
   <li>Ordered list item 1</li>
-  <li>Ordered list item 2.1</li>
+  <li>Ordered list item 2</li>
+   <li>Ordered list item 3</li>
+    <li>Ordered list item 4</li>
 </ol>
 
 
 <dl>
   <dt>Description list item 1</dt>
-  <dd>Description list item 1.1</dd>
+  <dd>Description list item 2</dd>
 </dl>
+<hr>
 <br>
 <br>
 &lt;ul&gt;<br>
 &lt;li&gt;Unordered list item 1&lt;/li&gt;<br>
 &lt;li&gt;Unordered list item 2&lt;/li&gt;<br>
 &lt;/ul&gt;<br>
+<br><br>
+&lt;ol&gt;<br>
+&lt;li&gt;Ordered list item 1&lt;/li&gt;<br>
+&lt;li&gt;Ordered list item 2&lt;/li&gt;<br>
+&lt;li&gt;Ordered list item 3&lt;/li&gt;<br>
+&lt;li&gt;Ordered list item 4&lt;/li&gt;<br>
+&lt;/ol&gt;<br>
+<br><br>
+&lt;dl&gt;<br>
+&lt;dt&gt;Description list item 1&lt;/dt&gt;<br>
+&lt;dd&gt;Description list item 2&lt;/dd&gt;<br>
+&lt;/dl&gt;<br>
+<br><br>
 </div>
 
 <br><br><br>
@@ -188,12 +231,13 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
 
 <br><br><br>
 
-<div class="wrapper  txt_large">
+<div class="wrapper  txt_large gliss-white genos gl-ghost gl-card-2">
 <h1>#Forms</h1>
 <hr>
-<h4 class="v-line justify-txt">Gliss forms helps to make this much easier with design focused on the user experience.</h4>
-
+<h4 class="">Gliss forms helps to make this much easier with design focused on the user experience.</h4>
+<hr>
 <br><br><br>
+
 <form>
   <fieldset>
     <label for="nameField"></label>
@@ -214,7 +258,7 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
     <input class="button-primary" type="submit" value="Send">
   </fieldset>
 </form>
-
+<hr>
 <br>
 <br>
 &lt;form&gt;<br>
@@ -237,6 +281,7 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
 &lt;input class="button-primary" type="submit" value="Send"&gt;<br>
 &lt;/fieldset&gt;<br>
 &lt;/form&gt;<br>
+<br><br>
 </div>
 
 <br><br><br>
@@ -248,14 +293,14 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
 
 <br><br><br>
 
-<div class="wrapper  txt_large">
+<div class="wrapper  txt_large gliss-white genos gl-ghost gl-card-2">
 <h1>#Tables</h1>
 <hr>
-<h4 class="v-line justify-txt">Add a section to your page for displaying list of sections in your content.</h4>
-
+<h4 class="">Add a section to your page for displaying list of sections in your content.</h4>
+<hr>
 <br><br><br>
 
-<table class="">
+<table class="gliss-white">
   <thead>
     <tr>
       <th>Name</th>
@@ -284,7 +329,7 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
 
 <br>
 <br>
-
+<hr>
 &lt;table&gt;<br>
 &lt;thead&gt;<br>
 &lt;tr&gt;;<br>
@@ -311,6 +356,7 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
 
 &lt;/tbody&gt;<br>
 &lt;/table&gt;<br>
+<br>
 </div>
 
 
@@ -323,18 +369,20 @@ To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
 
 <br><br><br>
 
-<div class="wrapper  txt_large">
+<div class="wrapper  txt_large gliss-white genos gl-ghost gl-card-2">
 <h1>#Nameplates</h1> 
 <hr>
-<h4 class="v-line justify-txt">
+<h4 class="">
 In newspapers or on the desktop, this is also the
 "masthead" or name of an publication.
 </h4>
+<hr>
 <br>
 <div class="card gliss-green">
 <h4 class="">Charles Roger</h4>
 <mark>CEO/President</mark>
 </div>
+<br>
 &lt;div class="card gliss-green"&gt;<br>
 &lt;h4 class=""&gt;Charles Roger&lt;/h4&gt;<br>
 &lt;mark&gt;CEO/President&lt;/mark&gt;<br>
@@ -345,6 +393,7 @@ In newspapers or on the desktop, this is also the
 <h3 class="txt_large">Charles Roger</h3>
 <mark>CEO/President</mark>
 </div>
+<br>
 &lt;div class="card gliss-blue"&gt;<br>
 &lt;h4 class="txt_large"&gt;Charles Roger&lt;/h4&gt;<br>
 &lt;mark&gt;CEO/President&lt;/mark&gt;<br>
@@ -355,6 +404,7 @@ In newspapers or on the desktop, this is also the
 <h1 class="txt_shadow transform_multi">Charles Roger</h1>
 <pre>CEO/President</pre>
 </div>
+<br>
 &lt;div class="card gliss-red"&gt;<br>
 &lt;h1 class="txt_shadow transform_multi"&gt;Charles Roger&lt;/h1&gt;<br>
 &lt;pre&gt;CEO/President&lt;/pre&gt;<br>
@@ -366,29 +416,32 @@ In newspapers or on the desktop, this is also the
 <center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
 <br><br><br>
 
-<div class="wrapper genos txt_large">
+<div class="wrapper  txt_large gliss-white genos gl-ghost gl-card-2">
 <h1>#Badges</h1>
-<h4 class="v-line justify-txt">
+<hr>
+<h4 class="">
 Documentation and examples for gl-badges, our small count and labeling component.
 </h4>
+<hr>
 
-
-<h1>Sample heading <span class="gl-badge gliss-brown">New</span></h1>
-<h2>Sample heading <span class="gl-badge gliss-brown">New</span></h2>
-<h3>Sample heading <span class="gl-badge gliss-brown">New</span></h3>
-<h4>Sample heading <span class="gl-badge gliss-brown">New</span></h4>
-<h5>Sample heading <span class="gl-badge gliss-brown">New</span></h5>
-<h6>Sample heading <span class="gl-badge gliss-brown">New</span></h6>
+<h1>Sample badge <span class="gl-badge gliss-brown">New</span></h1>
+<h2>Sample badge <span class="gl-badge gliss-brown">New</span></h2>
+<h3>Sample badge <span class="gl-badge gliss-brown">New</span></h3>
+<h4>Sample badge <span class="gl-badge gliss-brown">New</span></h4>
+<h5>Sample badge <span class="gl-badge gliss-brown">New</span></h5>
+<h6>Sample badge <span class="gl-badge gliss-brown">New</span></h6>
 
 <br>
+<hr>
 <br>
-&lt;h1&gt; Sample heading &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h7&gt;<br>
-&lt;h2&gt; Sample heading &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h7&gt;<br>
-&lt;h3&gt; Sample heading &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h7&gt;<br>
-&lt;h4&gt; Sample heading &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h7&gt;<br>
-&lt;h5&gt; Sample heading &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h7&gt;<br>
-&lt;h6&gt; Sample heading &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h7&gt;<br>
-&lt;h7&gt; Sample heading &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h7&gt;<br>
+&lt;h1&gt; Sample badge &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h1&gt;<br>
+&lt;h2&gt; Sample badge &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h2&gt;<br>
+&lt;h3&gt; Sample badge &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h3&gt;<br>
+&lt;h4&gt; Sample badge &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h4&gt;<br>
+&lt;h5&gt; Sample badge &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h5&gt;<br>
+&lt;h6&gt; Sample badge &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h6&gt;<br>
+&lt;h7&gt; Sample badge &lt;span class="gl-badge"&gt;New&lt;/span&gt;&lt;/h7&gt;<br>
+<br><br>
 </div>
 
 
@@ -401,12 +454,19 @@ Documentation and examples for gl-badges, our small count and labeling component
 <center><a onclick="topFunction()" id="gl_up"><i class="fas fa-angle-double-up txt_large"></i></a></center>
 
 <br><br><br>
-<div class="wrapper genos txt_large">
+
+
+
+
+
+
+<br><br><br>
+<div class="wrapper  txt_large gliss-black genos">
 <h1 id="rec">#Recommendations</h1>
 </div>
 <br><br><br>
 
-<div class="wrapper genos txt_large">
+<div class="wrapper  txt_large gliss-black genos">
 <h2>#GlissLaunch</h2>
 <h4 class="v-line justify-txt genos">Gliss backend supports:</h4>
 <div class="console">
@@ -425,44 +485,44 @@ Documentation and examples for gl-badges, our small count and labeling component
 
 <br><br><br>
 
-<div class="wrapper genos txt_large">
+<div class="wrapper  txt_large gliss-black genos">
 <h2>#OfflineMode</h2>
-<h4 class="v-line genos justify-txt">Simplify for yourself with offline storage</h4>
+<h4 class="">Simplify for yourself with offline storage</h4>
 
- <a class="v-line">  HTML5 gives us an offline storage mechanism so that we can serve pages and web applications without
-any requests to the server. This can be achieved via the manifest attribute in the html tag:<br><a class=""> &lt;meta manifest="gliss.appcache"&gt;</a><br>  </a>
-
+ <a class="">  HTML5 gives us an offline storage mechanism so that we can serve pages and web applications without
+any requests to the server. This can be achieved via the manifest attribute in the HTML tag:<br><a class=""> &lt;meta manifest="gliss.appcache"&gt;</a><br>  </a>
+<br><br>
 </div>
 
 <br><br><br>
 
-<div class="wrapper genos txt_large">
+<div class="wrapper  txt_large gliss-black genos">
 <h2>#Optimization</h2>
-<h4 class="v-line genos justify-txt"><p>Don't inline large data URIs</p></h4>
+<h4 class=""><p>Don't inline large data URIs</p></h4>
 
- <a class="v-line"> 
+ <a class=""> 
 Be careful when inlining data URIs in CSS files. 
 While selective use of small data URIs in your CSS may make sense,
  inlining large data URIs can cause the size of your above-the-fold CSS to be larger,
  which will slow down page render time.
  </a>
-
+<br>
 
 
 <br><br><br>
 
 
 
-<h4 class="v-line genos justify-txt">Don't inline CSS attributes</h4>
+<h4 class="">Don't inline CSS attributes</h4>
 <br>
 
- <a class="v-line"> 
+ <a class=""> 
 Inlining CSS attributes on HTML elements (e.g., &lt;p style="..."&gt;) 
 should be avoided where possible, as this often leads to unnecessary code duplication. Further,
 inline CSS on HTML elements is blocked by default with Content Security Policy (CSP).
  
  </a>
-
+<br><br>
 </div>
 
 <br><br><br><br><br><br>
@@ -478,6 +538,7 @@ inline CSS on HTML elements is blocked by default with Content Security Policy (
 </div>
    <footer class="page-footer">
  <div class="page-footer__inner">
+
     	<p>  
  <strong>Gliss</strong> by <a href=""> Chris Pro <i class="fas fa-pen"></i></a>. The source code is licensed
       <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
@@ -487,6 +548,7 @@ inline CSS on HTML elements is blocked by default with Content Security Policy (
 	
   </div>
 </p>  
+
  </div>
  </footer>
  
