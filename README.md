@@ -4,6 +4,7 @@
   </a>
 </p>
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/15e0202f810d4d83b215f696d917a712)](https://app.codacy.com/app/Cryptix720/Gliss?utm_source=github.com&utm_medium=referral&utm_content=Cryptix720/Gliss&utm_campaign=Badge_Grade_Dashboard)
 [![npm version](https://badge.fury.io/js/gliss01.svg)](https://badge.fury.io/js/gliss01)
 [![Build Status](https://travis-ci.org/Cryptix720/Gliss.svg?branch=master)
 [![HitCount](http://hits.dwyl.io/{Cryptix720}/{Gliss}.svg)](http://hits.dwyl.io/{Cryptix720}/{Gliss})
