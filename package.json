@@ -23,7 +23,6 @@
     "grunt-express-server": "^0.5.4",
     "gulp": "^4.0.0",
     "node-sass": "^4.9.3",
-    "snyk": "^1.91.0",
     "stylelint": "^9.5.0"
   },
   "dependencies": {
@@ -31,11 +30,13 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-eslint": "^21.0.0",
     "gulp-cli": "^2.0.1",
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "snyk": "^1.189.0"
   },
   "scripts": {
-
-    "protect": "snyk protect"
+    "protect": "snyk protect",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "config": {
     "port": "8989"
@@ -76,5 +77,6 @@
         }
       ]
     }
-  }
+  },
+  "snyk": true
 }
