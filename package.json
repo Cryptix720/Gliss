@@ -29,7 +29,7 @@
   "dependencies": {
     "fluid-grunt-eslint": "^18.1.2",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-eslint": "^21.0.0",
+    "grunt-eslint": "^22.0.0",
     "gulp-cli": "^2.0.1",
     "jshint": "^2.9.5"
   },
